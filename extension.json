@@ -1,0 +1,428 @@
+{
+	"Source": [
+		"https://fileinfo.com",
+		""
+	],
+
+	"TEXT FILES": "",
+	"txt": {
+		"header": "Plain Text File(.txt)",
+		"developer": "N/A",
+		"category": "Text Files",
+		"description": "A TXT file is a standard text document that contains unformatted text. It is recognized by any text editing or word processing program and can also be processed by most other software programs."
+	},
+	"doc": {
+		"header": "Microsoft Word Document(.doc)",
+		"developer": "Microsoft",
+		"category": "Text Files",
+		"description": "A DOC file is a word processing document created by Microsoft Word, or another word processing program, such as OpenOffice Writer or Apple Pages. It may contain formatted text, images, tables, graphs, charts, page formatting, and print settings."
+	},
+	".docx": {
+		"header": "Microsoft Word Open XML Document",
+		"developer": "Microsoft",
+		"category": "Text Files",
+		"description": "A DOCX file is a document created by Microsoft Word or another word processing program, such as OpenOffice Writer or Apple Pages. It contains formatted text but may also include images, drawn objects, and other document elements. DOCX files are widely used in home, academic, and business environments for drafting letters, resumes, invitations, newsletters, and other documents."
+	},
+	"log": {
+		"header": "Log File(.log)",
+		"developer": "N/A",
+		"category": "Text Files",
+		"description": "A LOG file is a log used by various operating systems and programs. It typically contains a plain text log of certain events with their timestamps. LOG files may be created by the operating system to keep track of system events or by a software installation program to list location and names of installed files."
+	},
+	"odt": {
+		"header": "OpenDocument Text(.odt)",
+		"developer": "Oracle",
+		"category": "Text Files",
+		"description": "An ODT file is a text document created with Writer, the Apache OpenOffice word processor. It contains different elements such as text, images, drawn objects, and styles. ODT files are formatted using the OASIS OpenDocument XML-based standard."
+	},
+	"pages": {
+		"header": "Pages Document(.pages)",
+		"developer": "Apple",
+		"category": "Text Files",
+		"description": "A PAGES files is a document created by Apple Pages, a word processor and page layout program. It may be a basic text document or a complex multi-page brochure. PAGES files can include text, pictures, tables, graphs, and charts and may be created from a blank page or built from a template."
+	},
+	"rtf": {
+		"header": "Rich Text Format(.rtf)",
+		"developer": "Microsoft",
+		"category": "Text Files",
+		"description": "An RTF file is a common text file format that supports 'rich text'. It includes several types of text formatting, such as bold type, italics, different fonts and font sizes, and custom tab settings. RTF files also support objects and images, such as .JPG and .PNG files, saved within the text file."
+	},
+	"tex": {
+		"header": "LaTeX Source Document(.tex)",
+		"developer": "Donald Knuth",
+		"category": "Text Files",
+		"description": "A TEX file is a source document prepared by LaTeX, a high-quality typesetting system. It can include text, symbols, mathematical expressions, and graphics. TEX files are commonly used in computer science, electrical engineering, statistics, economics, and physics for typesetting articles, books, and other publications."
+	},
+	"wpd": {
+		"header": "WordPerfect Document(.wpd)",
+		"developer": "Corel",
+		"category": "Text Files",
+		"description": "A WPD file is a text document created by Corel WordPerfect, a popular word processor. It may contain formatted text, tables, drawn objects, and images. WPD files are stored in a proprietary Corel format, but can be exported to other formats from within WordPerfect."
+	},
+	"wps": {
+		"header": "Kingsoft Writer Document(.wps)",
+		"developer": "Kingsoft",
+		"category": "Text Files",
+		"description": "A WPS file is a word processing document created by Kingsoft Writer, a word processor that is part of the Kingsoft WPS Office suite. It contains text, images, and page formatting. WPS files are similar to Microsoft Word documents (.DOC or .DOCX files)."
+	},
+
+	"DATA FILES": "",
+	"csv": {
+		"header": "Comma Separated Values(.csv)",
+		"developer": "N/A",
+		"category": "Data Files",
+		"description": "A CSV file is a comma separated values file commonly used by spreadsheet programs such as Microsoft Excel or OpenOffice Calc. It contains plain text data sets separated by commas with each new line in the CSV file representing a new database row and each database row consisting of one or more fields separated by a comma. CSV files are often opened by spreadsheet programs to be organized into cells or used for transferring data between databases."
+	},
+	"dat": {
+		"header": "Data File(.dat)",
+		"developer": "N/A",
+		"category": "Data Files",
+		"description": "A DAT file is a generic data file created by a specific application. It may contain data in binary or text format (text-based DAT files can be viewed in a text editor). DAT files are typically accessed only by the application that created them."
+	},
+	"ged": {
+		"header": "GEDCOM Genealogy Data File(.ged)",
+		"developer": "The LDS Church",
+		"category": "Data Files",
+		"description": "A GED file is a data file that stores family history and genealogical event data in the standard GEDCOM genealogy format. It contains data in an ASCII text format that can be opened by different genealogy programs on multiple computer systems."
+	},
+	"key": {
+		"header": "Software License Key File(.key)",
+		"developer": "N/A",
+		"category": "Misc Files",
+		"description": "A KEY file is a generic file extension used by various programs when registering legal copies of the software. It may be saved in a plain text format but generally contains some form of encrypted key string that authenticates the purchase and registers the software."
+	},
+	"keychain": {
+		"header": "Mac OS X Keychain File(.keychain)",
+		"developer": "Apple",
+		"category": "Data Files",
+		"description": "A KEYCHAIN file is created by Apple Keychain, a program bundled with Mac OS X that stores authentication information. It contains an encrypted collection of resource authentication data, such as passwords, certificates, and private keys."
+	},
+	"pps": {
+		"header": "PowerPoint Slide Show(.pps)",
+		"developer": "Microsoft",
+		"category": "Data Files",
+		"description": "A PPS file is a slide show created by Microsoft PowerPoint, a popular program included with Microsoft Office for creating presentations. It is saved as a completed slide show, which can be viewed by either PowerPoint or PowerPoint Viewer. PPS files are not editable like .PPT files."
+	},
+	"ppt": {
+		"header": "PowerPoint Presentation(.ppt)",
+		"developer": "Microsoft",
+		"category": "Data Files",
+		"description": "A PPT file is an editable slide show created by Microsoft PowerPoint or another presentation program, such as OpenOffice Impress or Apple Keynote. It may include formatted text, bullet points, images, movies, sound effects, and music. PPT files are commonly built from one of many templates included with the PowerPoint software, but may also be created from scratch."
+	},
+	"pptx": {
+		"header": "PowerPoint Open XML Presentation(.pptx)",
+		"developer": "Microsoft",
+		"category": "Data Files",
+		"description": "A PPTX file is a presentation file created by Microsoft PowerPoint or another presentation program, such as OpenOffice Impress or Apple Keynote. It contains a collection of slides, including their text, images, formatting, animations, drawn objects, and other media. PPTX files are commonly used in business meetings, marketing applications, and academic classroom settings."
+	},
+	"sdf": {
+		"header": "SQL Server Compact Database File(.sdf)",
+		"developer": "Microsoft",
+		"category": "Database Files",
+		"description": "Compact relational database developed by Microsoft, also known the SQL Server Compact (SQL CE) format; designed for applications that run on mobile devices and desktops; contains the complete database contents and can be up to 4GB in size."
+	},
+	"tar": {
+		"header": "Consolidated Unix File Archive(.tar)",
+		"developer": "Jean-loup Gailly",
+		"category": "Data Files",
+		"description": "Tar archive created by tar, a Unix-based utility used to package files together; contains multiple files stored in an uncompressed format; commonly compressed into a .GZ file using GNU Zip compression."
+	},
+	"vcf": {
+		"header": "vCard File(.vcf)",
+		"developer": "N/A",
+		"category": "Data Files",
+		"description": "A VCF file is a standard file format for storing contact information for a person or business. It typically includes a name, address, phone number, e-mail address, and other contact information. VCF files also support custom fields, images, and other types of media."
+	},
+	"xml": {
+		"header": "Extensible Markup Language File(.xml)",
+		"developer": "N/A",
+		"category": "Data Files",
+		"description": "An XML file is an XML (Extensible Markup Language) data file that uses tags to define objects and object attributes. It is formatted much like an .HTML document, but uses custom tags to define objects and the data within each object. XML files can be thought of as a text-based database."
+	},
+	"json": {
+		"header": "JavaScript Object Notation File(.json)",
+		"developer": "N/A",
+		"category": "Web Files / Data Files",
+		"description": "A JSON file is a file that stores simple data structures and objects. It contains data in a standard data interchange format which is lightweight, text-based, and human-readable. JSON files were originally based on a subset of JavaScript, but is considered a language-independent format, being supported by many different programming APIs."
+	},
+
+	"AUDIO FILES": "",
+	"aif": {
+		"header": "Audio Interchange File Format(.aif)",
+		"developer": "Apple",
+		"category": "Audio Files",
+		"description": "An AIF file is an audio file created using the Audio Interchange File Format (AIFF). It contains uncompressed CD-quality audio similar to a .WAV file and is commonly used to store standard CD audio."
+	},
+	"iff": {
+		"header": "Interchange File Format(.iff)",
+		"developer": "Electronic Arts",
+		"category": "Audio Files",
+		"description": "An IFF file is a universal file format created by Electronic Arts. It may contain image, text, or audio data and is used for interchanging different types of data across applications and platforms. IFF files are supported by many programs and are used as the basis for several other file formats, including AIFF."
+	},
+	"m3u": {
+		"header": "Media Playlist File(.m3u)",
+		"developer": "Nullsoft",
+		"category": "Audio Files",
+		"description": "An M3U file is a media playlist file supported by several media players such as Winamp and iTunes. It contains a playlist of MP3s and other audio or video files and lists the locations of media files in a plain text format."
+	},
+	"m4a": {
+		"header": "MPEG-4 Audio File(.m4a)",
+		"developer": "Apple",
+		"category": "Audio Files",
+		"description": "An M4A file is an audio file created in the MPEG-4 format, a multimedia container format used to store compressed audio and video data. It contains audio encoded with either the Advanced Audio Coding (AAC) codec or the Apple Lossless Audio Codec (ALAC)."
+	},
+	"mid": {
+		"header": "MIDI File(.mid)",
+		"developer": "N/A",
+		"category": "Audio Files",
+		"description": "A MID file is a standard MIDI (Musical Instrument Digital Interface) file used by music authoring and mixing programs as well as MIDI hardware devices. It contains music data, such as what notes are played, when they are played, how long each note is held, and how loud each note is played."
+	},
+	"mp3": {
+		"header": "MP3 Audio File(.mp3)",
+		"developer": "Moving Picture Experts Group",
+		"category": "Audio Files",
+		"description": "An MP3 file is an audio file that uses a compressed audio format developed by the Moving Picture Experts Group that uses 'Layer 3' audio compression. It is commonly used to store music files and audiobooks on a hard drive and may provide near-CD quality sound (stereo, 16-bit) in a file roughly 1/10 the size of a .WAV or .AIF file."
+	},
+	"mpa": {
+		"header": "MPEG-2 Audio File",
+		"developer": "N/A",
+		"category": "Audio Files",
+		"description": "An MPA file is an audio file compressed with MPEG Layer II compression, which reduces the file size while minimally affecting the overall sound quality. It is based on the MPEG-1 audio-coding standard and was later updated for the MPEG-2 specification."
+	},
+	"wav": {
+		"header": "WAVE Audio File(.wav)",
+		"developer": "Microsoft",
+		"category": "Audio Files",
+		"description": "A WAV file is an audio file that uses a standard digital audio file format utilized for storing waveform data. It allows audio recordings to be saved with different sampling rates and bitrates and are often saved in a 44.1 KHz, 16-bit, stereo format, which is the standard format used for CD audio."
+	},
+	"wma": {
+		"header": "Windows Media Audio File(.wma)",
+		"developer": "Microsoft",
+		"category": "Audio Files",
+		"description": "A WMA file is an audio file saved in the Advanced Systems Format (ASF) proprietary format developed by Microsoft. It contains Windows Media Audio and metadata objects such as the title, artist, album, and genre of the track. WMA files are similar to .MP3 files and primarily used for streaming music from the web."
+	},
+
+	"VIDEO FILES": "",
+	"3g2": {
+		"header": "3GPP2 Multimedia File(.3g2)",
+		"developer": "Third Generation Partnership Project",
+		"category": "Video Files",
+		"description": "A 3G2 file is a multimedia file saved in an audio and video format developed by the 3rd Generation Partnership Project 2 (3GPP2). 3G2 files are designed for transmitting multimedia content over the Internet and are used by cell phones to save video files."
+	},
+	"3gp": {
+		"header": "3GPP Multimedia File(.3gp)",
+		"developer": "Third Generation Partnership Project",
+		"category": "Video Files",
+		"description": "A 3GP file is a multimedia file saved in an audio and video container format developed by the 3rd Generation Partnership Project (3GPP). It stores video and audio streams that are transmitted between 3G mobile phones and over the Internet."
+	},
+	"asf": {
+		"header": "Advanced Systems Format File(.asf)",
+		"developer": "Microsoft",
+		"category": "Video Files",
+		"description": "An ASF file is a media file stored in the Advanced Systems Format (ASF), a proprietary video and audio container format. It contains audio and video data and optional metadata, such as title, author, and copyright bibliographic data. ASF files are developed by Microsoft primarily for streaming media."
+	},
+	"avi": {
+		"header": "Audio Video Interleave File(.avi)",
+		"developer": "Microsoft",
+		"category": "Video Files",
+		"description": "An AVI file is a file saved in a multimedia container format created by Microsoft. It stores video and audio data that may be encoded in a variety of codecs such as DivX and XviD. AVI files typically use less compression than similar formats such as .MPEG and .MOV."
+	},
+	"flv": {
+		"header": "Animate Video File(.flv)",
+		"developer": "Adobe Systems",
+		"category": "Video Files",
+		"description": "An FLV file is a flash-compatible video file exported by the Flash Video Exporter plug-in (included with Adobe Animate) or other program with FLV file support. It consists of a short header, interleaved audio, video, and metadata packets. The file stores audio and video data in a similar format used by standard Flash (.SWF) files."
+	},
+	"m4v": {
+		"header": "iTunes Video File",
+		"developer": "Apple",
+		"category": "Video Files",
+		"description": "An M4V file is an MPEG-4 file used to store video downloaded from the Apple iTunes store, such as TV episodes, music videos, and full-length movies. It is similar to the .MP4 file, but may be copy-protected using Apple's FairPlay DRM copyright protection."
+	},
+	"mov": {
+		"header": "Apple QuickTime Movie(.mov)",
+		"developer": "Apple",
+		"category": "Video Files",
+		"description": "A MOV file is a common multimedia container file format developed by Apple and compatible with both Macintosh and Windows platforms. It may contain multiple tracks that store different types of media data and is often used for saving movies and other video files. MOV files commonly use the MPEG-4 codec for compression."
+	},
+	"mp4": {
+		"header": "MPEG-4 Video File(.mp4)",
+		"developer": "Moving Picture Experts Group",
+		"category": "Video Files",
+		"description": "An MP4 file is a multimedia file commonly used to store a movie or video clip, but may also contain subtitles or images. MP4 is short for MPEG-4 Part 14, which is a container format based on the QuickTime File Format (QTFF) used by .MOV and .QT files."
+	},
+	"mpg": {
+		"header": "MPEG Video File(.mpg)",
+		"developer": "N/A",
+		"category": "Video Files",
+		"description": "An MPG file is a common video file that uses a digital video format standardized by the Moving Picture Experts Group (MPEG). It stores video, audio, and metadata interleaved together. MPG files are often used for creating movies that are distributed on the Internet."
+	},
+	"rm": {
+		"header": "RealMedia File(.rm)",
+		"developer": "RealNetworks",
+		"category": "Video Files",
+		"description": "An RM file is a multimedia file used by RealPlayer, an audio and video playback and streaming program. It contains audio or video data or a link to a streaming media file, which is played back as it is downloaded. RM files are commonly used for streaming content over the Internet such as video and Internet radio."
+	},
+	"srt": {
+		"header": "SubRip Subtitle(.srt)",
+		"developer": "N/A",
+		"category": "Video Files",
+		"description": "An SRT file is a subtitle file saved in the SubRip file format. It is supported by several video formats such as DivX and DVD and used by various video playback programs. SRT files contain subtitle information, which includes the sequential number of subtitles, start and end timecode, subtitle text."
+	},
+  "swf": {
+		"header": "Shockwave Flash Movie(.swf)",
+		"developer": "Adobe Systems",
+		"category": "Video Files",
+		"description": "An SWF file is an animation created with Adobe Flash that can be played by Flash Player or with a web browser that has the Flash plugin installed. It may contain text, vector and bitmap graphics, and interactive content written in ActionScript."
+	},
+  "vob": {
+		"header": "DVD Video Object(.vob)",
+		"developer": "N/A",
+		"category": "Video Files",
+		"description": "A VOB file is a movie data file from a DVD disc, typically stored in the VIDEO_TS folder at the root of the DVD. It contains a majority of the data stored on the disc which includes video, audio, subtitles, DVD menus and other navigation contents. VOB files are usually formatted as MPEG-2 system streams and can be opened by various video playback programs."
+	},
+  "wmv": {
+		"header": "Windows Media Video(.wmv)",
+		"developer": "Microsoft",
+		"category": "Video Files",
+		"description": "A WMV file is a video file based on the Microsoft Advanced Systems Format (ASF) container format and compressed with Windows Media compression. It contains video encoded with one of Microsoft's Windows Media Video (WMV) proprietary codecs and is similar to an .ASF file."
+	},
+  "yuv": {
+		"header": "YUV Video File",
+		"developer": "N/A",
+		"category": "Video Files",
+		"description": "A YUV file is a video file encoded in the YUV format. It stores a sequence of YUV images as a single video file and may be saved in YUV 4:2:0, 4:2:2, 4:4:4 formats. YUV video files may be decoded by MPEG-4 and H.264 decoders."
+	},
+
+  "IMAGE FILE" : "",
+  "bmp": {
+		"header": "Bitmap Image(.bmp)",
+		"developer": "N/A",
+		"category": "Image Files",
+		"description": "A BMP file is an uncompressed bitmap image comprised of a rectangular grid of pixels. It contains a file header (bitmap identifier, file size, width, height, color options, and bitmap data starting point) and bitmap pixels, each with a different color."
+	},
+  "dds": {
+		"header": "DirectDraw Surface(.dds)",
+		"developer": "Microsoft",
+		"category": "Image Files",
+		"description": "A DDS file is an image file saved in a bitmap image format used by Microsoft DirectX to store textures and environments. It can store compressed and uncompressed bitmap formats and is sometimes used for storing Windows desktop backgrounds or wallpapers. DDS files are also used for texturing video game unit models."
+	},
+  "gif": {
+		"header": "Graphical Interchange Format(.gif)",
+		"developer": "N/A",
+		"category": "Image Files",
+		"description": "A GIF file is an image file often used for web graphics. It may contain up to 256 indexed colors with a color palette that may be a predefined set of colors or may be adapted to the colors in the image. GIF files are saved in a lossless format, meaning the clarity of the image is not compromised with GIF compression."
+	},
+  "jpg": {
+		"header": "JPEG Image(.jpg)",
+		"developer": "Joint Photographic Experts Group",
+		"category": "Image Files",
+		"description": "A JPG file is an image saved in a compressed image format standardized by the Joint Photographic Experts Group (JPEG). It is commonly used for storing digital photos and used by most digital cameras to save images. JPG files are among the most common image files along with .PNG, .TIF, and .GIF."
+	},
+  "png": {
+		"header": "Portable Network Graphic(.png)",
+		"developer": "N/A",
+		"category": "Image Files",
+		"description": "A PNG file is an image file stored in the Portable Network Graphic (PNG) format. It contains a bitmap of indexed colors and uses lossless compression, similar to a .GIF file but without copyright limitations. PNG files are commonly used to store graphics for web images."
+	},
+  "psd": {
+		"header": "Adobe Photoshop Document(.psd)",
+		"developer": "Adobe Systems",
+		"category": "Image Files",
+		"description": "A PSD file is an image file created by Adobe Photoshop, a professional image-editing program often used to enhance digital photos and create web graphics. It is the native format used to save files in Photoshop. PSD files may include image layers, adjustment layers, layer masks, annotations, file information, keywords, and other Photoshop-specific elements. They are commonly created and shared among graphics professionals."
+	},
+  "pspimage": {
+		"header": "PaintShop Pro Image(.pspimage)",
+		"developer": "Corel",
+		"category": "Image Files",
+		"description": "A PSPIMAGE file is a graphic saved by Corel PaintShop Pro, a program used for editing images and digital photos. It may contain both bitmap and vector graphics and supports layers, transparency, filters, and other image effects. PSPIMAGE files are commonly used for storing touched up photos, as well as for exporting finished images to other bitmap image file formats."
+	},
+  "tga": {
+		"header": "Targa Graphic(.tga)",
+		"developer": "Avid Technology",
+		"category": "Image Files",
+		"description": "A TGA file is a file saved in the bitmap graphic format designed by Truevision. It supports 8, 16, 24, or 32 bits per bitmap at a maximum of 24 bits for RGB colors and and 8-bit alpha channel. TGA files are often used to store texture files referenced by 3D video games."
+	},
+  "thm": {
+		"header": "Sony Ericsson Theme File(.thm)",
+		"developer": "Sony Ericsson",
+		"category": "Misc Files",
+		"description": "A THM file is a theme file used by Sony Ericsson mobile phones. It stores settings used to customize the user interface of the cell phone and includes custom window and text colors, icons, wallpaper, and other images. THM files can be created and edited using the free Themes Creator from Sony Ericsson."
+	},
+  "tif": {
+		"header": "Tagged Image File(.tif)",
+		"developer": "N/A",
+		"category": "Image Files",
+		"description": "A TIF file is an image file saved in a high-quality graphics format. It is often used for storing images with many colors, such as digital photos and includes support for layers and multiple pages."
+	},
+  "tiff": {
+		"header": "Tagged Image File Format(.tiff)",
+		"developer": "Adobe Systems",
+		"category": "Image Files",
+		"description": "A TIFF file is a graphics container that stores raster images. It may contain high-quality graphics that support color depths from 1 to 24-bit and supports both lossy and lossless compression. TIFF files also support multiple layers and pages."
+	},
+  "ai": {
+		"header": "Adobe Illustrator File(.ai)",
+		"developer": "Adobe Systems",
+		"category": "Image Files",
+		"description": "An AI file is a drawing created with Adobe Illustrator, a vector graphics editing program. It is composed of paths connected by points, rather than bitmap image data. AI files are commonly used for logos and print media."
+	},
+  "eps": {
+		"header": "Encapsulated PostScript File(.eps)",
+		"developer": "Adobe Systems",
+		"category": "Image Files",
+		"description": "An EPS file is a graphics file saved in the Encapsulated PostScript (EPS) file format. It may contain 2D vector graphics, bitmap images, and text. EPS files also include an embedded preview image in bitmap format."
+	},
+  "ps": {
+		"header": "PostScript File(.ps)",
+		"developer": "Adobe Systems",
+		"category": "Image Files",
+		"description": "A PS file is an image saved in the PostScript page description language. It may contain vector graphics, raster graphics, and text. PS files can be printed directly by a PostScript printer (i.e., containing a Raster Image Processor) without being opened in an application."
+	},
+  "svg": {
+		"header": "Scalable Vector Graphics(.svg)",
+		"developer": "Adobe Systems",
+		"category": "Image Files",
+		"description": "An SVG file is a graphics file that uses a two-dimensional vector graphic format created by the World Wide Web Consortium (W3C). It describes images using a text format that is based on XML. SVG files are developed as a standard format for displaying vector graphics on the web."
+	},
+
+	"DATABASE FILE" : "",
+  "": {
+		"header": "",
+		"developer": "",
+		"category": "",
+		"description": ""
+	},
+  "": {
+		"header": "",
+		"developer": "",
+		"category": "",
+		"description": ""
+	},
+  "": {
+		"header": "",
+		"developer": "",
+		"category": "",
+		"description": ""
+	},
+  "": {
+		"header": "",
+		"developer": "",
+		"category": "",
+		"description": ""
+	},
+  "": {
+		"header": "",
+		"developer": "",
+		"category": "",
+		"description": ""
+	},
+  "": {
+		"header": "",
+		"developer": "",
+		"category": "",
+		"description": ""
+	}
+
+
+}
