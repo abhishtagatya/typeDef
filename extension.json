@@ -387,35 +387,35 @@
 	},
 
 	"DATABASE FILE" : "",
-  "": {
-		"header": "",
-		"developer": "",
-		"category": "",
-		"description": ""
+  "db": {
+		"header": "Mobile Device Database File(.db)",
+		"developer": "N/A",
+		"category": "Database Files",
+		"description": "A DB file is a database file used on mobile devices such as Android, iOS, and Windows Phone 7 mobile phones. It is often used to store contacts and SMS information but may store any type of device or application data. DB files are commonly stored in an SQLite database format but may also be locked or encrypted so the user cannot see the data directly."
 	},
-  "": {
-		"header": "",
-		"developer": "",
-		"category": "",
-		"description": ""
+  "dbf": {
+		"header": "Database File(.dbf)",
+		"developer": "dBASE",
+		"category": "Database Files",
+		"description": "A DBF file is a standard database file used by dBASE, a database management system application. It organizes data into multiple records with fields stored in an array data type. DBF files are also compatible with other 'xBase' database programs, which arose because of the file format's popularity."
 	},
-  "": {
-		"header": "",
-		"developer": "",
-		"category": "",
-		"description": ""
+  "mdb": {
+		"header": "Microsoft Access Database(.mdb)",
+		"developer": "Microsoft",
+		"category": "Database Files",
+		"description": "An MDB file is a database file created by Microsoft Access, a widely-used desktop relational database program. It contains the database structure (tables and fields) and database entries (table rows). MDB files may also store data entry forms, queries, stored procedures, reports, and database security settings."
 	},
-  "": {
-		"header": "",
-		"developer": "",
-		"category": "",
-		"description": ""
+  "pdb": {
+		"header": "Program Database(.pdb)",
+		"developer": "N/A",
+		"category": "Database Files",
+		"description": "A PDB file is a database file used by various applications, including Pegasus, Quicken, MS Visual Studio, and Palm Pilot software. It stores data in a structured format and is typically installed with the corresponding application."
 	},
-  "": {
-		"header": "",
-		"developer": "",
-		"category": "",
-		"description": ""
+  "sql": {
+		"header": "Structured Query Language Data File(.sql)",
+		"developer": "N/A",
+		"category": "Database Files",
+		"description": "A SQL file is a file written in SQL (Structured Query Language). It contains SQL code used to modify the contents of a relational database. SQL files may also contain statements for creating or modifying database structures, insertions, updates, deletions, and other SQL operations."
 	},
   "": {
 		"header": "",
@@ -423,6 +423,4 @@
 		"category": "",
 		"description": ""
 	}
-
-
 }
