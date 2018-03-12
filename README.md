@@ -17,4 +17,6 @@ Contributions are also accepted, please add to our list of file types by extensi
 }
 ```
 
+## Requirements
 
+```sudo apt install jq```
