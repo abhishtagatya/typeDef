@@ -417,7 +417,63 @@
 		"category": "Database Files",
 		"description": "A SQL file is a file written in SQL (Structured Query Language). It contains SQL code used to modify the contents of a relational database. SQL files may also contain statements for creating or modifying database structures, insertions, updates, deletions, and other SQL operations."
 	},
-  "": {
+
+	"EXECUTABLE FILE" : "",
+  "apk": {
+		"header": "Android Package File(.apk)",
+		"developer": "Google",
+		"category": "Executable Files",
+		"description": "An APK file is an app created for Android, Google's mobile operating system. Some apps come pre-installed on Android devices, while other apps can be downloaded from Google Play. Apps downloaded from Google Play are automatically installed on your device, while those downloaded from other sources must be installed manually."
+	},
+	"app": {
+		"header": "Mac OS X Application(.app)",
+		"developer": "Apple",
+		"category": "Executable Files",
+		"description": "An APP file is an application bundle that runs under Mac OS X. APP files are executable files similar to .EXE files in Windows and run when double-clicked."
+	},
+	"bat": {
+		"header": "DOS Batch File(.bat)",
+		"developer": "Microsoft",
+		"category": "Executable Files",
+		"description": "A BAT file is a DOS batch file used to execute commands with the Windows Command Prompt (cmd.exe). It contains a series of line commands that typically might be entered at the DOS command prompt. BAT files are most commonly used to start programs and run maintenance utilities within Windows."
+	},
+	"cgi": {
+		"header": "Common Gateway Interface Script(.cgi)",
+		"developer": "N/A",
+		"category": "Executable Files",
+		"description": "A CGI file is an executable script written in the Perl or C programming language. It is typically stored in the 'cgi-bin' folder within a website directory on a web server and can only be edited if it is not pre-compiled."
+	},
+	"com": {
+		"header": "DOS Command File(.com)",
+		"developer": "Microsoft",
+		"category": "Executable Files",
+		"description": "A COM file is an executable program capable of being run by MS-DOS and Windows. It is saved in a binary format and is similar to an .EXE file, but differs in that it has a maximum size of roughly 64KB and it has no header or metadata. COM files are commonly used for executing a set of instructions whereas EXE files are used for fully developed programs."
+	},
+	"exe": {
+		"header": "Windows Executable File(.exe)",
+		"developer": "Microsoft",
+		"category": "Executable Files",
+		"description": "An EXE file contains an executable program for Windows. EXE is short for 'executable,' and it is the standard file extension used by Windows programs. For many Windows users, EXE files are synonymous with Windows programs, making '.exe' one of the most recognizable file extensions."
+	},
+	"gadget": {
+		"header": "Windows Gadget(.gadget)",
+		"developer": "Microsoft",
+		"category": "Executable Files",
+		"description": "A GADGET file is a small program that runs within the Windows Vista or Windows 7 sidebar. It stores several web-based files in a Zip archive format and may include .HTML, .CSS, .JS files, as well as other web files. GADGET files are used for small programs such as news feeds, search tools, system utilities, and small games."
+	},
+	"jar": {
+		"header": "Java Archive(.jar)",
+		"developer": "Oracle",
+		"category": "Executable Files",
+		"description": "A JAR file is a Java archive (JAR) file used by the Java Runtime Environment (JRE), a framework used for executing Java programs. JAR files may serve as program libraries or as standalone programs that run if the JRE is installed on the computer or mobile device."
+	},
+	"wsf": {
+		"header": "Windows Script File(.wsf)",
+		"developer": "Microsoft",
+		"category": "Executable Files",
+		"description": "A WSF file is an executable script for Windows that can incorporate JScript and VBScript routines and may include XML elements. WSF files run themselves if WScript or CScript is installed."
+	},
+	"": {
 		"header": "",
 		"developer": "",
 		"category": "",
