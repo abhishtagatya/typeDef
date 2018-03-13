@@ -6,13 +6,29 @@ version="0.1"
 author="Abhishta Gatya"
 
 #TODO :
-# - Create a feature list (Help, Links, Report, Full Description)
+# - Create a feature list (Help, +Links, Report, +Full Description, version)
 # - Clean Code with ShellCheck
 # Log(12 March 2018)
 
 function cmd_help {
   # Put A Help Function Here!
   printf "Hello World"
+}
+
+function getJSONContent {
+  json_content=$(curl -s "$extension_url" | jq --arg extension "$extension" ".[\"$extension\"][\"header\",\"developer\",\"category\",\"description\"]")
+  option=$1
+
+  case $option in
+    --link|-l)
+      printf "$json_content\n"
+      printf "\nhttps://fileinfo.com/extension/%s\n" "$extension"
+      ;;
+    *)
+      printf "$json_content\n"
+      printf "$option"
+      ;;
+  esac
 }
 
 # GitHub's 'extension.json' Database
@@ -24,18 +40,15 @@ extension="${filename##*.}"
 filename="${filename%.*}"
 
 # command Packing
-check_key=$(curl $extension_url | jq "has(\"$extension\")")
-
-get_json=$(curl $extension_url | jq ".[\"$extension\"]")
-get_header=$(curl $extension_url | jq ".[\"$extension\"][\"header\"]")
-get_developer=$(curl $extension_url | jq ".[\"$extension\"][\"developer\"]")
-get_category=$(curl $extension_url | jq ".[\"$extension\"][\"category\"]")
-get_description=$(curl $extension_url | jq ".[\"$extension\"][\"description\"]")
+check_key=$(curl -s $extension_url | jq "has(\"$extension\")")
+get_json=$(curl -s $extension_url | jq ".[\"$extension\"]")
 
 # Control Flow
 
-clear
-printf "$get_header\n\n"
-printf "$get_developer\n"
-printf "$get_category\n\n"
-printf "$get_description\n"
+if [[ $check_key ]]; then
+  if [[ "$get_json" != "null" ]]; then
+    getJSONContent $2
+  else
+    file $1
+  fi
+fi
