@@ -473,6 +473,38 @@
 		"category": "Executable Files",
 		"description": "A WSF file is an executable script for Windows that can incorporate JScript and VBScript routines and may include XML elements. WSF files run themselves if WScript or CScript is installed."
 	},
+
+	"GAME FILES" : "",
+	"dem": {
+		"header": "Video Game Demo File(.dem)",
+		"developer": "Valve",
+		"category": "Game Files",
+		"description": "A DEM file is a game replay file created by various first-person shooter games and most popularly by Counter-Strike (supported by Valve's Source game engine). DEM files are used to record a player's perspective in a single or multiplayer game, which can then be shared with others."
+	},
+	"gam": {
+		"header": "Saved Game File(.gam)",
+		"developer": "N/A",
+		"category": "Game Files",
+		"description": "A GAM file is created by various video games to store saved games. It allows the gamer to continue where he or she left off the next time the program is opened. GAM files may be manually saved by the user or automatically saved by the program, for example, at the end of each level."
+	},
+	"nes": {
+		"header": "Nintendo (NES) ROM File(.nes)",
+		"developer": "N/A",
+		"category": "Game Files",
+		"description": "An NES file is a game ROM created from an NES (Nintendo Entertainment System) video game. It contains the same data as the original NES cartridge and can be opened and played on a Mac or PC using an NES emulator."
+	},
+	"rom": {
+		"header": "Read Only Memory Image(.rom)",
+		"developer": "N/A",
+		"category": "Misc Files",
+		"description": "A ROM file is a file that contains a copy of the ROM for a hardware device. It is commonly used for software emulation or for updating the firmware on a certain device. "
+	},
+	"sav": {
+		"header": "Nintendo DS Save File",
+		"developer": "Nintendo",
+		"category": "Game Files",
+		"description": "A SAV file is a saved game used by Nintendo DS portable game system emulators such as DeSmuME and NO$GBA. It stores the state of the current game progress and includes game information such as the character name, experience points, completed levels, and in-game resources."
+	},
 	"": {
 		"header": "",
 		"developer": "",
