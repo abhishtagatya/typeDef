@@ -49,6 +49,14 @@ $ typedef --link filename.jpg
 
 This will give you the link to https://fileinfo.com according to your file type.
 
+**Want new feature? Update It!**
+
+```bash
+$ typedef --update
+```
+
+This will update your typedef script and install it to '/usr/bin/typedef'
+
 **Stuck? Show Help!**
 
 ```bash
