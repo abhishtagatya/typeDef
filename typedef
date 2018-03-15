@@ -4,43 +4,53 @@
 
 version="0.1"
 author="Abhishta Gatya"
+extension_url="https://raw.githubusercontent.com/abhishtagatya/typeDef/master/extension.json"
 
 #TODO :
-# - Create a feature list (Help, +Links, Report, +Full Description, version)
+# - Create a feature list (Report, Update, Issue)
+# - Create Test with python
 # - Clean Code with ShellCheck
 # Log(12 March 2018)
 
-function cmd_help {
+showHelp() {
   # Put A Help Function Here!
-  printf "Hello World"
+  printf 'typeDef - returns information of a file extension '
+  printf "[version $version]\n"
+
+  printf 'Usage: typedef [options] [file]\n\n'
+  printf '\ttypdeDef is a tool that returns information of various file\n'
+  printf '\textension and outputting the name, developer, type and description\n'
+  printf '\tof the given file.\n'
+  printf '\tFor more information, visit us at https://github.com/abhishtagatya/typeDef\n\n'
+
+  printf '\tAvailable options :\n'
+  printf '\t -i\t\tprint the file information;\n'
+  printf '\t -l\t\tprint the link and file information;\n'
+  printf '\t -lo\t\tprint only the link file information;\n'
+  printf '\t -w\t\tprint and open link of the file information;\n'
+  printf '\t -wo\t\topen link of the file information;\n'
+  printf '\t -h\t\tshow help;\n'
+
 }
 
-function getJSONContent {
+getJSONContent() {
   # Get JSON Content from 'extension_url' or process other arguments
-
-  json_content=$(curl -s "$extension_url" | jq --arg extension "$extension" ".[\"$extension\"][\"header\",\"developer\",\"category\",\"description\"]")
-
-  option=$1
-  case $option in
-    -l|--link)
+  if [[ $check_key ]]; then
+    if [[ $get_json != 'null' ]]; then
       printf "$json_content\n"
-      printf "https://fileinfo.com/extension/%s\n" "$extension"
-      ;;
-    -w|--web)
-      xdg-open "https://fileinfo.com/extension/""$extension"
-      ;;
-    *)
-      printf "$json_content\n"
-      printf "$option"
-      ;;
-  esac
+    else
+      file $filename
+    fi
+  fi
 }
-
-# GitHub's 'extension.json' Database
-extension_url="https://raw.githubusercontent.com/abhishtagatya/typeDef/master/extension.json"
 
 # Get the File Extension and Filename
-filename=$(basename "$1")
+if [[ $2 == "" ]]; then
+  filename=$1
+else
+  filename=$2
+fi
+
 extension="${filename##*.}"
 filename="${filename%.*}"
 
@@ -49,12 +59,13 @@ wget -q --timeout=20 --spider http://fileinfo.com
 if [[ $? -eq 0 ]]; then
   check_key=$(curl -s $extension_url | jq "has(\"$extension\")")
   get_json=$(curl -s $extension_url | jq ".[\"$extension\"]")
+  json_content=$(curl -s "$extension_url" | jq --arg extension "$extension" ".[\"$extension\"][\"header\",\"developer\",\"category\",\"description\"]")
 else
-  file $1
+  file $filename
 fi
 
 # Control Flow
-option="$1"
+option=$1
 case $option in
   -v|--version)
     # Print current version
@@ -62,19 +73,33 @@ case $option in
     ;;
   -h|--help)
     # Show help
-    cmd_help
+    showHelp
     ;;
-  -u|--update)
-    # Update script using wget
-    :
+  -l|--link)
+    # Print and Output link
+    getJSONContent
+    printf "https://fileinfo.com/extension/%s\n" "$extension"
     ;;
-  *)
-  if [[ $check_key ]]; then
-    if [[ "$get_json" != "null" ]]; then
-      getJSONContent $2
-    else
-      file $1
-    fi
-  fi
+  -lo|--link-only)
+    printf "https://fileinfo.com/extension/%s\n" "$extension"
+    ;;
+  -w|--web)
+    # Print and Open up web using xdg-open
+    getJSONContent
+    xdg-open 'http://fileinfo.com/extension/'"$extension"
+    ;;
+  -wo|--web-only)
+    # Only Open up web using xdg-open
+    xdg-open 'http://fileinfo.com/extension/'"$extension"
+    ;;
+  -i|--info)
+  getJSONContent
   ;;
+  "")
+  # Return help if no arg is given
+  showHelp
+  ;;
+  *)
+  # By Default it will just give info of the file
+  getJSONContent
 esac

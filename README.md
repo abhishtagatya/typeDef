@@ -1,5 +1,8 @@
 # typeDef
 
+[![star this repo](http://githubbadges.com/star.svg?user=abhishtagatya&repo=https://github.com/abhishtagatya/typeDef&style=flat)](https://github.com/abhishtagatya/https://github.com/abhishtagatya/typeDef)
+
+
 A Terminal tool that returns information of a file's extension
 > "Make remembering file types and extensions, a thing in the past"
 
@@ -25,28 +28,36 @@ $ sudo apt install jq
 **Install the Script**
 
 ```bash
-$ WIP
+$ echo "Not Ready for download yet :)"
 ```
 
 ## Time to check it out!
 
 typeDef has a couple of options to retrieve data from 'extension.json', so make sure you are connected to the Internet for better user experience
 
-**Redirecting to Pages**
+**Info not rich enough? Go to web!**
 
 ```bash
-$ typedef filename.json --web
+$ typedef --web filename.json
 ```
 
 This will redirect you to https://fileinfo.com for full information of the file type.
 
-**Output Links**
+**Want a reliable source? Links!**
 
 ```bash
-$ typedef filename.jpg --link
+$ typedef --link filename.jpg
 ```
 
 This will give you the link to https://fileinfo.com according to your file type.
+
+**Stuck? Show Help!**
+
+```bash
+$ typedef --help
+```
+
+More features are going to be added to make the program better for use!
 
 ## Contributions
 
@@ -80,4 +91,4 @@ We decided to put little bits of that information into the 'extension.json' beca
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/abhishtagatya/typeDef/blob/master/LICENSE) file for details
