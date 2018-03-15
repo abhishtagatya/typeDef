@@ -41,6 +41,8 @@ getJSONContent() {
     else
       file $fullfilename
     fi
+  else
+    file $fullfilename
   fi
 }
 
@@ -60,21 +62,21 @@ if [[ $? -eq 0 ]]; then
   check_key=$(curl -s $extension_url | jq "has(\"$extension\")")
   get_json=$(curl -s $extension_url | jq ".[\"$extension\"]")
   json_content=$(curl -s "$extension_url" | jq --arg extension "$extension" ".[\"$extension\"][\"header\",\"developer\",\"category\",\"description\"]")
-else
-  file $fullfilename
 fi
 
 # Control Flow
 option=$1
 case $option in
+  -h|--help|'')
+    # Show help
+    showHelp
+    ;;
+
   -v|--version)
     # Print current version
     printf "typedef %s\n" "$version"
     ;;
-  -h|--help)
-    # Show help
-    showHelp
-    ;;
+
   -u|--update)
     # Update and Replace Script
     wget -q --timeout=20 --spider http://fileinfo.com
@@ -86,30 +88,29 @@ case $option in
       printf "It seems there is a problem with your network, Try Again\n"
     fi
     ;;
-  -l|--link)
+
+  -l|--link|-lo|--link-only)
     # Print and Output link
-    getJSONContent
+    if [[ "$option" == "-l" || "$option" == "--link" ]]; then
+      getJSONContent
+    fi
     printf "https://fileinfo.com/extension/%s\n" "$extension"
     ;;
-  -lo|--link-only)
-    printf "https://fileinfo.com/extension/%s\n" "$extension"
-    ;;
-  -w|--web)
+
+  -w|--web|-wo|--web-only)
     # Print and Open up web using xdg-open
-    getJSONContent
+    if [[ "$option" == "-w" || "$option" == "--web" ]]; then
+      getJSONContent
+    fi
     xdg-open 'http://fileinfo.com/extension/'"$extension"
+    exit 0
     ;;
-  -wo|--web-only)
-    # Only Open up web using xdg-open
-    xdg-open 'http://fileinfo.com/extension/'"$extension"
-    ;;
+
   -i|--info)
+  # Retrieve Info of File
   getJSONContent
   ;;
-  "")
-  # Return help if no arg is given
-  showHelp
-  ;;
+
   *)
   # By Default it will just give info of the file
   getJSONContent
