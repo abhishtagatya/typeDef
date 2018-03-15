@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # TypeDef | Defining the File Types
-
 version="0.5"
-author="Abhishta Gatya"
 extension_url="https://raw.githubusercontent.com/abhishtagatya/typeDef/master/extension.json"
 
 #TODO :
 # - Create a feature list (Report, Update, Issue)
+#   - Report : Report for Misinformation and anything about the 'extension.json'
+#   - Update : Test Out the Update script feature
 # - Create Test with python
 # - Clean Code with ShellCheck
 # Log(12 March 2018)
@@ -29,7 +29,9 @@ showHelp() {
   printf '\t -lo\t\tprint only the link file information;\n'
   printf '\t -w\t\tprint and open link of the file information;\n'
   printf '\t -wo\t\topen link of the file information;\n'
-  printf '\t -h\t\tshow help;\n'
+  printf '\t -h\t\tshow help;\n\n'
+
+  printf 'Issue and report bugs and misinformation in the github issue page\n'
 
 }
 
