@@ -505,6 +505,66 @@
 		"category": "Game Files",
 		"description": "A SAV file is a saved game used by Nintendo DS portable game system emulators such as DeSmuME and NO$GBA. It stores the state of the current game progress and includes game information such as the character name, experience points, completed levels, and in-game resources."
 	},
+
+	"3D IMAGE FILES" : "",
+	"3dm": {
+		"header": "Rhino 3D Model(.3dm)",
+		"developer": "Robert McNeel & Associates",
+		"category": "3D Image Files",
+		"description": "A 3DM file is an open-source 3D model format and native file format for Rhinoceros. It contains a 3D model which includes surface, points, and curve information. 3DM files allow CAD, CAM, CAE, and computer graphics software to accurately save and exchange 3D geometry using both NURBS and polygon mesh representations."
+	},
+	"3ds": {
+		"header": "3D Studio Scene(.3ds)",
+		"developer": "Autodesk",
+		"category": "3D Image Files",
+		"description": "A 3DS file is a 3D image format used by Autodesk 3D Studio. It contains mesh data, material attributes, bitmap references, smoothing group data, viewport configurations, camera locations, and lighting information. 3DS files may also include object animation data."
+	},
+	"max": {
+		"header": "3Ds Max Scene File(.max)",
+		"developer": "Autodesk",
+		"category": "3D Image Files",
+		"description": "A MAX file is a three-dimensional scene file created by 3ds Max, a 3D modeling, animation, and rendering application. It may contain multiple models that include wireframes, textures, lighting effects, shading, animation, and other 3D design elements."
+	},
+	"obj": {
+		"header": "Wavefront 3D Object File(.obj)",
+		"developer": "Wavefront Technologies",
+		"category": "3D Image Files",
+		"description": "An OBJ file is a standard 3D image format that can be exported and opened by various 3D image editing programs. It contains a three-dimensional object including 3D coordinates, texture maps, polygonal faces, and other object information."
+	},
+
+	"GIS FILE" : "",
+	"gpx": {
+		"header": "GPS Exchange File(.gpx)",
+		"developer": "N/A",
+		"category": "GIS Files",
+		"description": "A GPX file is a GPS data saved in the GPS Exchange format, an open standard that can be freely used by GPS programs. It contains longitude and latitude location data, which includes waypoints, routes, and tracks. GPX files are saved in XML format that allows GPS data to be more easily imported and read by multiple programs and web services."
+	},
+	"kml": {
+		"header": "Keyhole Markup Language(.kml)",
+		"developer": "N/A",
+		"category": "GIS Files",
+		"description": "A KML file stores geographic modeling information in XML format. It includes points, lines, polygons, and images. KML files are used to identify and label locations, create different camera angles, overlay textures, and add HTML content."
+	},
+	"kmz": {
+		"header": "Google Earth Placemark File(.kmz)",
+		"developer": "Google",
+		"category": "GIS Files",
+		"description": "A KMZ file is a file that stores map locations viewable in Google Earth, a global mapping program. It contains placemarks that may include a custom name and the latitudinal and longitudinal coordinates of the location. KMZ files provide a bird's eye view of locations throughout the U.S. and other areas of the world."
+	},
+
+	"CAD FILE" : "",
+	"dwg": {
+		"header": "AutoCAD Drawing Database File(.dwg)",
+		"developer": "Autodesk",
+		"category": "CAD Files",
+		"description": "A DWG file is a database of 2D or 3D drawings created with AutoCAD, a professional CAD program. It contains vector image data and metadata that describes the contents of the file. DWG files are related to .DXF files, which are ASCII versions of DWG files."
+	},
+	"dxf": {
+		"header": "Drawing Exchange Format File(.dxf)",
+		"developer": "Autodesk",
+		"category": "CAD Files",
+		"description": "A DXF file is a data file saved in a format developed by Autodesk and used for CAD (computer-aided design) vector image files, such as AutoCAD documents. DXF files are similar to .DWG files, but are more compatible with other programs since they are ASCII (text) based."
+	},
 	"": {
 		"header": "",
 		"developer": "",
