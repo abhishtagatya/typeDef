@@ -2,7 +2,7 @@
 
 # TypeDef | Defining the File Types
 
-version="0.1"
+version="0.5"
 author="Abhishta Gatya"
 extension_url="https://raw.githubusercontent.com/abhishtagatya/typeDef/master/extension.json"
 
@@ -39,20 +39,20 @@ getJSONContent() {
     if [[ $get_json != 'null' ]]; then
       printf "$json_content\n"
     else
-      file $filename
+      file $fullfilename
     fi
   fi
 }
 
 # Get the File Extension and Filename
 if [[ $2 == "" ]]; then
-  filename=$1
+  fullfilename=$1
 else
-  filename=$2
+  fullfilename=$2
 fi
 
-extension="${filename##*.}"
-filename="${filename%.*}"
+extension="${fullfilename##*.}"
+filename="${fullfilename%.*}"
 
 # Check for connections and get JSON Data
 wget -q --timeout=20 --spider http://fileinfo.com
@@ -61,7 +61,7 @@ if [[ $? -eq 0 ]]; then
   get_json=$(curl -s $extension_url | jq ".[\"$extension\"]")
   json_content=$(curl -s "$extension_url" | jq --arg extension "$extension" ".[\"$extension\"][\"header\",\"developer\",\"category\",\"description\"]")
 else
-  file $filename
+  file $fullfilename
 fi
 
 # Control Flow
@@ -74,6 +74,17 @@ case $option in
   -h|--help)
     # Show help
     showHelp
+    ;;
+  -u|--update)
+    # Update and Replace Script
+    wget -q --timeout=20 --spider http://fileinfo.com
+    if [[ $? -eq 0 ]]; then
+      wget https://raw.githubusercontent.com/abhishtagatya/typeDef/master/typedef
+      sudo install -Dm 755 typedef /usr/bin/typedef
+      printf "Successfully Updated\n"
+    else
+      printf "It seems there is a problem with your network, Try Again\n"
+    fi
     ;;
   -l|--link)
     # Print and Output link

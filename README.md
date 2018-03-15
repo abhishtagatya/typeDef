@@ -32,7 +32,7 @@ $ echo "Not Ready for download yet :)"
 
 typeDef has a couple of options to retrieve data from 'extension.json', so make sure you are connected to the Internet for better user experience
 
-**Info not rich enough? Go to web!**
+**Info not enough? Go to web!**
 
 ```bash
 $ typedef --web filename.json
