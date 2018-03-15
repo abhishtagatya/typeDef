@@ -1,8 +1,5 @@
 # typeDef
 
-[![star this repo](http://githubbadges.com/star.svg?user=abhishtagatya&repo=https://github.com/abhishtagatya/typeDef&style=flat)](https://github.com/abhishtagatya/https://github.com/abhishtagatya/typeDef)
-
-
 A Terminal tool that returns information of a file's extension
 > "Make remembering file types and extensions, a thing in the past"
 
