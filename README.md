@@ -25,7 +25,8 @@ $ sudo apt install jq
 **Install the Script**
 
 ```bash
-$ echo "Not Ready for download yet :)"
+$ wget https://raw.githubusercontent.com/abhishtagatya/typeDef/master/typedef
+$ sudo install -Dm 755 typedef /usr/bin/typedef
 ```
 
 ## Time to check it out!
