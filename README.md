@@ -18,10 +18,9 @@ It will get all the information about the file (name, developer, type, descripti
 ## Need It? Install It!
 
 **Requirements**
+- [jq](https://stedolan.github.io/jq/) JSON Processor
+- [xdg-utils](https://launchpad.net/ubuntu/xenial/+package/xdg-utils) Open File and URL
 
-```bash
-$ sudo apt install jq
-```
 **Install the Script**
 
 ```bash

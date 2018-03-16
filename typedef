@@ -84,8 +84,9 @@ case $option in
     # Update and Replace Script
     wget -q --timeout=20 --spider http://fileinfo.com
     if [[ $? -eq 0 ]]; then
-      wget https://raw.githubusercontent.com/abhishtagatya/typeDef/master/typedef
+      sudo wget https://raw.githubusercontent.com/abhishtagatya/typeDef/master/typedef
       sudo install -Dm 755 typedef /usr/bin/typedef
+      sudo rm typedef
       printf "Successfully Updated\n"
     else
       printf "It seems there is a problem with your network, Try Again\n"
