@@ -1,748 +1,800 @@
 {
-	"Source": [
-		"https://fileinfo.com",
-		""
-	],
-
-	"TEXT FILES": "",
-	"txt": {
-		"header": "Plain Text File(.txt)",
-		"developer": "N/A",
-		"category": "Text Files",
-		"description": "A TXT file is a standard text document that contains unformatted text. It is recognized by any text editing or word processing program and can also be processed by most other software programs."
-	},
-	"doc": {
-		"header": "Microsoft Word Document(.doc)",
-		"developer": "Microsoft",
-		"category": "Text Files",
-		"description": "A DOC file is a word processing document created by Microsoft Word, or another word processing program, such as OpenOffice Writer or Apple Pages. It may contain formatted text, images, tables, graphs, charts, page formatting, and print settings."
-	},
-	".docx": {
-		"header": "Microsoft Word Open XML Document",
-		"developer": "Microsoft",
-		"category": "Text Files",
-		"description": "A DOCX file is a document created by Microsoft Word or another word processing program, such as OpenOffice Writer or Apple Pages. It contains formatted text but may also include images, drawn objects, and other document elements. DOCX files are widely used in home, academic, and business environments for drafting letters, resumes, invitations, newsletters, and other documents."
-	},
-	"log": {
-		"header": "Log File(.log)",
-		"developer": "N/A",
-		"category": "Text Files",
-		"description": "A LOG file is a log used by various operating systems and programs. It typically contains a plain text log of certain events with their timestamps. LOG files may be created by the operating system to keep track of system events or by a software installation program to list location and names of installed files."
-	},
-	"odt": {
-		"header": "OpenDocument Text(.odt)",
-		"developer": "Oracle",
-		"category": "Text Files",
-		"description": "An ODT file is a text document created with Writer, the Apache OpenOffice word processor. It contains different elements such as text, images, drawn objects, and styles. ODT files are formatted using the OASIS OpenDocument XML-based standard."
-	},
-	"pages": {
-		"header": "Pages Document(.pages)",
-		"developer": "Apple",
-		"category": "Text Files",
-		"description": "A PAGES files is a document created by Apple Pages, a word processor and page layout program. It may be a basic text document or a complex multi-page brochure. PAGES files can include text, pictures, tables, graphs, and charts and may be created from a blank page or built from a template."
-	},
-	"rtf": {
-		"header": "Rich Text Format(.rtf)",
-		"developer": "Microsoft",
-		"category": "Text Files",
-		"description": "An RTF file is a common text file format that supports 'rich text'. It includes several types of text formatting, such as bold type, italics, different fonts and font sizes, and custom tab settings. RTF files also support objects and images, such as .JPG and .PNG files, saved within the text file."
-	},
-	"tex": {
-		"header": "LaTeX Source Document(.tex)",
-		"developer": "Donald Knuth",
-		"category": "Text Files",
-		"description": "A TEX file is a source document prepared by LaTeX, a high-quality typesetting system. It can include text, symbols, mathematical expressions, and graphics. TEX files are commonly used in computer science, electrical engineering, statistics, economics, and physics for typesetting articles, books, and other publications."
-	},
-	"wpd": {
-		"header": "WordPerfect Document(.wpd)",
-		"developer": "Corel",
-		"category": "Text Files",
-		"description": "A WPD file is a text document created by Corel WordPerfect, a popular word processor. It may contain formatted text, tables, drawn objects, and images. WPD files are stored in a proprietary Corel format, but can be exported to other formats from within WordPerfect."
-	},
-	"wps": {
-		"header": "Kingsoft Writer Document(.wps)",
-		"developer": "Kingsoft",
-		"category": "Text Files",
-		"description": "A WPS file is a word processing document created by Kingsoft Writer, a word processor that is part of the Kingsoft WPS Office suite. It contains text, images, and page formatting. WPS files are similar to Microsoft Word documents (.DOC or .DOCX files)."
-	},
-
-	"DATA FILES": "",
-	"csv": {
-		"header": "Comma Separated Values(.csv)",
-		"developer": "N/A",
-		"category": "Data Files",
-		"description": "A CSV file is a comma separated values file commonly used by spreadsheet programs such as Microsoft Excel or OpenOffice Calc. It contains plain text data sets separated by commas with each new line in the CSV file representing a new database row and each database row consisting of one or more fields separated by a comma. CSV files are often opened by spreadsheet programs to be organized into cells or used for transferring data between databases."
-	},
-	"dat": {
-		"header": "Data File(.dat)",
-		"developer": "N/A",
-		"category": "Data Files",
-		"description": "A DAT file is a generic data file created by a specific application. It may contain data in binary or text format (text-based DAT files can be viewed in a text editor). DAT files are typically accessed only by the application that created them."
-	},
-	"ged": {
-		"header": "GEDCOM Genealogy Data File(.ged)",
-		"developer": "The LDS Church",
-		"category": "Data Files",
-		"description": "A GED file is a data file that stores family history and genealogical event data in the standard GEDCOM genealogy format. It contains data in an ASCII text format that can be opened by different genealogy programs on multiple computer systems."
-	},
-	"key": {
-		"header": "Software License Key File(.key)",
-		"developer": "N/A",
-		"category": "Misc Files",
-		"description": "A KEY file is a generic file extension used by various programs when registering legal copies of the software. It may be saved in a plain text format but generally contains some form of encrypted key string that authenticates the purchase and registers the software."
-	},
-	"keychain": {
-		"header": "Mac OS X Keychain File(.keychain)",
-		"developer": "Apple",
-		"category": "Data Files",
-		"description": "A KEYCHAIN file is created by Apple Keychain, a program bundled with Mac OS X that stores authentication information. It contains an encrypted collection of resource authentication data, such as passwords, certificates, and private keys."
-	},
-	"pps": {
-		"header": "PowerPoint Slide Show(.pps)",
-		"developer": "Microsoft",
-		"category": "Data Files",
-		"description": "A PPS file is a slide show created by Microsoft PowerPoint, a popular program included with Microsoft Office for creating presentations. It is saved as a completed slide show, which can be viewed by either PowerPoint or PowerPoint Viewer. PPS files are not editable like .PPT files."
-	},
-	"ppt": {
-		"header": "PowerPoint Presentation(.ppt)",
-		"developer": "Microsoft",
-		"category": "Data Files",
-		"description": "A PPT file is an editable slide show created by Microsoft PowerPoint or another presentation program, such as OpenOffice Impress or Apple Keynote. It may include formatted text, bullet points, images, movies, sound effects, and music. PPT files are commonly built from one of many templates included with the PowerPoint software, but may also be created from scratch."
-	},
-	"pptx": {
-		"header": "PowerPoint Open XML Presentation(.pptx)",
-		"developer": "Microsoft",
-		"category": "Data Files",
-		"description": "A PPTX file is a presentation file created by Microsoft PowerPoint or another presentation program, such as OpenOffice Impress or Apple Keynote. It contains a collection of slides, including their text, images, formatting, animations, drawn objects, and other media. PPTX files are commonly used in business meetings, marketing applications, and academic classroom settings."
-	},
-	"sdf": {
-		"header": "SQL Server Compact Database File(.sdf)",
-		"developer": "Microsoft",
-		"category": "Database Files",
-		"description": "Compact relational database developed by Microsoft, also known the SQL Server Compact (SQL CE) format; designed for applications that run on mobile devices and desktops; contains the complete database contents and can be up to 4GB in size."
-	},
-	"tar": {
-		"header": "Consolidated Unix File Archive(.tar)",
-		"developer": "Jean-loup Gailly",
-		"category": "Data Files",
-		"description": "Tar archive created by tar, a Unix-based utility used to package files together; contains multiple files stored in an uncompressed format; commonly compressed into a .GZ file using GNU Zip compression."
-	},
-	"vcf": {
-		"header": "vCard File(.vcf)",
-		"developer": "N/A",
-		"category": "Data Files",
-		"description": "A VCF file is a standard file format for storing contact information for a person or business. It typically includes a name, address, phone number, e-mail address, and other contact information. VCF files also support custom fields, images, and other types of media."
-	},
-	"xml": {
-		"header": "Extensible Markup Language File(.xml)",
-		"developer": "N/A",
-		"category": "Data Files",
-		"description": "An XML file is an XML (Extensible Markup Language) data file that uses tags to define objects and object attributes. It is formatted much like an .HTML document, but uses custom tags to define objects and the data within each object. XML files can be thought of as a text-based database."
-	},
-	"json": {
-		"header": "JavaScript Object Notation File(.json)",
-		"developer": "N/A",
-		"category": "Web Files / Data Files",
-		"description": "A JSON file is a file that stores simple data structures and objects. It contains data in a standard data interchange format which is lightweight, text-based, and human-readable. JSON files were originally based on a subset of JavaScript, but is considered a language-independent format, being supported by many different programming APIs."
-	},
-
-	"AUDIO FILES": "",
-	"aif": {
-		"header": "Audio Interchange File Format(.aif)",
-		"developer": "Apple",
-		"category": "Audio Files",
-		"description": "An AIF file is an audio file created using the Audio Interchange File Format (AIFF). It contains uncompressed CD-quality audio similar to a .WAV file and is commonly used to store standard CD audio."
-	},
-	"iff": {
-		"header": "Interchange File Format(.iff)",
-		"developer": "Electronic Arts",
-		"category": "Audio Files",
-		"description": "An IFF file is a universal file format created by Electronic Arts. It may contain image, text, or audio data and is used for interchanging different types of data across applications and platforms. IFF files are supported by many programs and are used as the basis for several other file formats, including AIFF."
-	},
-	"m3u": {
-		"header": "Media Playlist File(.m3u)",
-		"developer": "Nullsoft",
-		"category": "Audio Files",
-		"description": "An M3U file is a media playlist file supported by several media players such as Winamp and iTunes. It contains a playlist of MP3s and other audio or video files and lists the locations of media files in a plain text format."
-	},
-	"m4a": {
-		"header": "MPEG-4 Audio File(.m4a)",
-		"developer": "Apple",
-		"category": "Audio Files",
-		"description": "An M4A file is an audio file created in the MPEG-4 format, a multimedia container format used to store compressed audio and video data. It contains audio encoded with either the Advanced Audio Coding (AAC) codec or the Apple Lossless Audio Codec (ALAC)."
-	},
-	"mid": {
-		"header": "MIDI File(.mid)",
-		"developer": "N/A",
-		"category": "Audio Files",
-		"description": "A MID file is a standard MIDI (Musical Instrument Digital Interface) file used by music authoring and mixing programs as well as MIDI hardware devices. It contains music data, such as what notes are played, when they are played, how long each note is held, and how loud each note is played."
-	},
-	"mp3": {
-		"header": "MP3 Audio File(.mp3)",
-		"developer": "Moving Picture Experts Group",
-		"category": "Audio Files",
-		"description": "An MP3 file is an audio file that uses a compressed audio format developed by the Moving Picture Experts Group that uses 'Layer 3' audio compression. It is commonly used to store music files and audiobooks on a hard drive and may provide near-CD quality sound (stereo, 16-bit) in a file roughly 1/10 the size of a .WAV or .AIF file."
-	},
-	"mpa": {
-		"header": "MPEG-2 Audio File",
-		"developer": "N/A",
-		"category": "Audio Files",
-		"description": "An MPA file is an audio file compressed with MPEG Layer II compression, which reduces the file size while minimally affecting the overall sound quality. It is based on the MPEG-1 audio-coding standard and was later updated for the MPEG-2 specification."
-	},
-	"wav": {
-		"header": "WAVE Audio File(.wav)",
-		"developer": "Microsoft",
-		"category": "Audio Files",
-		"description": "A WAV file is an audio file that uses a standard digital audio file format utilized for storing waveform data. It allows audio recordings to be saved with different sampling rates and bitrates and are often saved in a 44.1 KHz, 16-bit, stereo format, which is the standard format used for CD audio."
-	},
-	"wma": {
-		"header": "Windows Media Audio File(.wma)",
-		"developer": "Microsoft",
-		"category": "Audio Files",
-		"description": "A WMA file is an audio file saved in the Advanced Systems Format (ASF) proprietary format developed by Microsoft. It contains Windows Media Audio and metadata objects such as the title, artist, album, and genre of the track. WMA files are similar to .MP3 files and primarily used for streaming music from the web."
-	},
-
-	"VIDEO FILES": "",
-	"3g2": {
-		"header": "3GPP2 Multimedia File(.3g2)",
-		"developer": "Third Generation Partnership Project",
-		"category": "Video Files",
-		"description": "A 3G2 file is a multimedia file saved in an audio and video format developed by the 3rd Generation Partnership Project 2 (3GPP2). 3G2 files are designed for transmitting multimedia content over the Internet and are used by cell phones to save video files."
-	},
-	"3gp": {
-		"header": "3GPP Multimedia File(.3gp)",
-		"developer": "Third Generation Partnership Project",
-		"category": "Video Files",
-		"description": "A 3GP file is a multimedia file saved in an audio and video container format developed by the 3rd Generation Partnership Project (3GPP). It stores video and audio streams that are transmitted between 3G mobile phones and over the Internet."
-	},
-	"asf": {
-		"header": "Advanced Systems Format File(.asf)",
-		"developer": "Microsoft",
-		"category": "Video Files",
-		"description": "An ASF file is a media file stored in the Advanced Systems Format (ASF), a proprietary video and audio container format. It contains audio and video data and optional metadata, such as title, author, and copyright bibliographic data. ASF files are developed by Microsoft primarily for streaming media."
-	},
-	"avi": {
-		"header": "Audio Video Interleave File(.avi)",
-		"developer": "Microsoft",
-		"category": "Video Files",
-		"description": "An AVI file is a file saved in a multimedia container format created by Microsoft. It stores video and audio data that may be encoded in a variety of codecs such as DivX and XviD. AVI files typically use less compression than similar formats such as .MPEG and .MOV."
-	},
-	"flv": {
-		"header": "Animate Video File(.flv)",
-		"developer": "Adobe Systems",
-		"category": "Video Files",
-		"description": "An FLV file is a flash-compatible video file exported by the Flash Video Exporter plug-in (included with Adobe Animate) or other program with FLV file support. It consists of a short header, interleaved audio, video, and metadata packets. The file stores audio and video data in a similar format used by standard Flash (.SWF) files."
-	},
-	"m4v": {
-		"header": "iTunes Video File",
-		"developer": "Apple",
-		"category": "Video Files",
-		"description": "An M4V file is an MPEG-4 file used to store video downloaded from the Apple iTunes store, such as TV episodes, music videos, and full-length movies. It is similar to the .MP4 file, but may be copy-protected using Apple's FairPlay DRM copyright protection."
-	},
-	"mov": {
-		"header": "Apple QuickTime Movie(.mov)",
-		"developer": "Apple",
-		"category": "Video Files",
-		"description": "A MOV file is a common multimedia container file format developed by Apple and compatible with both Macintosh and Windows platforms. It may contain multiple tracks that store different types of media data and is often used for saving movies and other video files. MOV files commonly use the MPEG-4 codec for compression."
-	},
-	"mp4": {
-		"header": "MPEG-4 Video File(.mp4)",
-		"developer": "Moving Picture Experts Group",
-		"category": "Video Files",
-		"description": "An MP4 file is a multimedia file commonly used to store a movie or video clip, but may also contain subtitles or images. MP4 is short for MPEG-4 Part 14, which is a container format based on the QuickTime File Format (QTFF) used by .MOV and .QT files."
-	},
-	"mpg": {
-		"header": "MPEG Video File(.mpg)",
-		"developer": "N/A",
-		"category": "Video Files",
-		"description": "An MPG file is a common video file that uses a digital video format standardized by the Moving Picture Experts Group (MPEG). It stores video, audio, and metadata interleaved together. MPG files are often used for creating movies that are distributed on the Internet."
-	},
-	"rm": {
-		"header": "RealMedia File(.rm)",
-		"developer": "RealNetworks",
-		"category": "Video Files",
-		"description": "An RM file is a multimedia file used by RealPlayer, an audio and video playback and streaming program. It contains audio or video data or a link to a streaming media file, which is played back as it is downloaded. RM files are commonly used for streaming content over the Internet such as video and Internet radio."
-	},
-	"srt": {
-		"header": "SubRip Subtitle(.srt)",
-		"developer": "N/A",
-		"category": "Video Files",
-		"description": "An SRT file is a subtitle file saved in the SubRip file format. It is supported by several video formats such as DivX and DVD and used by various video playback programs. SRT files contain subtitle information, which includes the sequential number of subtitles, start and end timecode, subtitle text."
-	},
-	"swf": {
-		"header": "Shockwave Flash Movie(.swf)",
-		"developer": "Adobe Systems",
-		"category": "Video Files",
-		"description": "An SWF file is an animation created with Adobe Flash that can be played by Flash Player or with a web browser that has the Flash plugin installed. It may contain text, vector and bitmap graphics, and interactive content written in ActionScript."
-	},
-	"vob": {
-		"header": "DVD Video Object(.vob)",
-		"developer": "N/A",
-		"category": "Video Files",
-		"description": "A VOB file is a movie data file from a DVD disc, typically stored in the VIDEO_TS folder at the root of the DVD. It contains a majority of the data stored on the disc which includes video, audio, subtitles, DVD menus and other navigation contents. VOB files are usually formatted as MPEG-2 system streams and can be opened by various video playback programs."
-	},
-	"wmv": {
-		"header": "Windows Media Video(.wmv)",
-		"developer": "Microsoft",
-		"category": "Video Files",
-		"description": "A WMV file is a video file based on the Microsoft Advanced Systems Format (ASF) container format and compressed with Windows Media compression. It contains video encoded with one of Microsoft's Windows Media Video (WMV) proprietary codecs and is similar to an .ASF file."
-	},
-	"yuv": {
-		"header": "YUV Video File",
-		"developer": "N/A",
-		"category": "Video Files",
-		"description": "A YUV file is a video file encoded in the YUV format. It stores a sequence of YUV images as a single video file and may be saved in YUV 4:2:0, 4:2:2, 4:4:4 formats. YUV video files may be decoded by MPEG-4 and H.264 decoders."
-	},
-
-	"IMAGE FILE": "",
-	"bmp": {
-		"header": "Bitmap Image(.bmp)",
-		"developer": "N/A",
-		"category": "Image Files",
-		"description": "A BMP file is an uncompressed bitmap image comprised of a rectangular grid of pixels. It contains a file header (bitmap identifier, file size, width, height, color options, and bitmap data starting point) and bitmap pixels, each with a different color."
-	},
-	"dds": {
-		"header": "DirectDraw Surface(.dds)",
-		"developer": "Microsoft",
-		"category": "Image Files",
-		"description": "A DDS file is an image file saved in a bitmap image format used by Microsoft DirectX to store textures and environments. It can store compressed and uncompressed bitmap formats and is sometimes used for storing Windows desktop backgrounds or wallpapers. DDS files are also used for texturing video game unit models."
-	},
-	"gif": {
-		"header": "Graphical Interchange Format(.gif)",
-		"developer": "N/A",
-		"category": "Image Files",
-		"description": "A GIF file is an image file often used for web graphics. It may contain up to 256 indexed colors with a color palette that may be a predefined set of colors or may be adapted to the colors in the image. GIF files are saved in a lossless format, meaning the clarity of the image is not compromised with GIF compression."
-	},
-	"jpg": {
-		"header": "JPEG Image(.jpg)",
-		"developer": "Joint Photographic Experts Group",
-		"category": "Image Files",
-		"description": "A JPG file is an image saved in a compressed image format standardized by the Joint Photographic Experts Group (JPEG). It is commonly used for storing digital photos and used by most digital cameras to save images. JPG files are among the most common image files along with .PNG, .TIF, and .GIF."
-	},
-	"png": {
-		"header": "Portable Network Graphic(.png)",
-		"developer": "N/A",
-		"category": "Image Files",
-		"description": "A PNG file is an image file stored in the Portable Network Graphic (PNG) format. It contains a bitmap of indexed colors and uses lossless compression, similar to a .GIF file but without copyright limitations. PNG files are commonly used to store graphics for web images."
-	},
-	"psd": {
-		"header": "Adobe Photoshop Document(.psd)",
-		"developer": "Adobe Systems",
-		"category": "Image Files",
-		"description": "A PSD file is an image file created by Adobe Photoshop, a professional image-editing program often used to enhance digital photos and create web graphics. It is the native format used to save files in Photoshop. PSD files may include image layers, adjustment layers, layer masks, annotations, file information, keywords, and other Photoshop-specific elements. They are commonly created and shared among graphics professionals."
-	},
-	"pspimage": {
-		"header": "PaintShop Pro Image(.pspimage)",
-		"developer": "Corel",
-		"category": "Image Files",
-		"description": "A PSPIMAGE file is a graphic saved by Corel PaintShop Pro, a program used for editing images and digital photos. It may contain both bitmap and vector graphics and supports layers, transparency, filters, and other image effects. PSPIMAGE files are commonly used for storing touched up photos, as well as for exporting finished images to other bitmap image file formats."
-	},
-	"tga": {
-		"header": "Targa Graphic(.tga)",
-		"developer": "Avid Technology",
-		"category": "Image Files",
-		"description": "A TGA file is a file saved in the bitmap graphic format designed by Truevision. It supports 8, 16, 24, or 32 bits per bitmap at a maximum of 24 bits for RGB colors and and 8-bit alpha channel. TGA files are often used to store texture files referenced by 3D video games."
-	},
-	"thm": {
-		"header": "Sony Ericsson Theme File(.thm)",
-		"developer": "Sony Ericsson",
-		"category": "Misc Files",
-		"description": "A THM file is a theme file used by Sony Ericsson mobile phones. It stores settings used to customize the user interface of the cell phone and includes custom window and text colors, icons, wallpaper, and other images. THM files can be created and edited using the free Themes Creator from Sony Ericsson."
-	},
-	"tif": {
-		"header": "Tagged Image File(.tif)",
-		"developer": "N/A",
-		"category": "Image Files",
-		"description": "A TIF file is an image file saved in a high-quality graphics format. It is often used for storing images with many colors, such as digital photos and includes support for layers and multiple pages."
-	},
-	"tiff": {
-		"header": "Tagged Image File Format(.tiff)",
-		"developer": "Adobe Systems",
-		"category": "Image Files",
-		"description": "A TIFF file is a graphics container that stores raster images. It may contain high-quality graphics that support color depths from 1 to 24-bit and supports both lossy and lossless compression. TIFF files also support multiple layers and pages."
-	},
-	"ai": {
-		"header": "Adobe Illustrator File(.ai)",
-		"developer": "Adobe Systems",
-		"category": "Image Files",
-		"description": "An AI file is a drawing created with Adobe Illustrator, a vector graphics editing program. It is composed of paths connected by points, rather than bitmap image data. AI files are commonly used for logos and print media."
-	},
-	"eps": {
-		"header": "Encapsulated PostScript File(.eps)",
-		"developer": "Adobe Systems",
-		"category": "Image Files",
-		"description": "An EPS file is a graphics file saved in the Encapsulated PostScript (EPS) file format. It may contain 2D vector graphics, bitmap images, and text. EPS files also include an embedded preview image in bitmap format."
-	},
-	"ps": {
-		"header": "PostScript File(.ps)",
-		"developer": "Adobe Systems",
-		"category": "Image Files",
-		"description": "A PS file is an image saved in the PostScript page description language. It may contain vector graphics, raster graphics, and text. PS files can be printed directly by a PostScript printer (i.e., containing a Raster Image Processor) without being opened in an application."
-	},
-	"svg": {
-		"header": "Scalable Vector Graphics(.svg)",
-		"developer": "Adobe Systems",
-		"category": "Image Files",
-		"description": "An SVG file is a graphics file that uses a two-dimensional vector graphic format created by the World Wide Web Consortium (W3C). It describes images using a text format that is based on XML. SVG files are developed as a standard format for displaying vector graphics on the web."
-	},
-
-	"DATABASE FILE": "",
-	"db": {
-		"header": "Mobile Device Database File(.db)",
-		"developer": "N/A",
-		"category": "Database Files",
-		"description": "A DB file is a database file used on mobile devices such as Android, iOS, and Windows Phone 7 mobile phones. It is often used to store contacts and SMS information but may store any type of device or application data. DB files are commonly stored in an SQLite database format but may also be locked or encrypted so the user cannot see the data directly."
-	},
-	"dbf": {
-		"header": "Database File(.dbf)",
-		"developer": "dBASE",
-		"category": "Database Files",
-		"description": "A DBF file is a standard database file used by dBASE, a database management system application. It organizes data into multiple records with fields stored in an array data type. DBF files are also compatible with other 'xBase' database programs, which arose because of the file format's popularity."
-	},
-	"mdb": {
-		"header": "Microsoft Access Database(.mdb)",
-		"developer": "Microsoft",
-		"category": "Database Files",
-		"description": "An MDB file is a database file created by Microsoft Access, a widely-used desktop relational database program. It contains the database structure (tables and fields) and database entries (table rows). MDB files may also store data entry forms, queries, stored procedures, reports, and database security settings."
-	},
-	"pdb": {
-		"header": "Program Database(.pdb)",
-		"developer": "N/A",
-		"category": "Database Files",
-		"description": "A PDB file is a database file used by various applications, including Pegasus, Quicken, MS Visual Studio, and Palm Pilot software. It stores data in a structured format and is typically installed with the corresponding application."
-	},
-	"sql": {
-		"header": "Structured Query Language Data File(.sql)",
-		"developer": "N/A",
-		"category": "Database Files",
-		"description": "A SQL file is a file written in SQL (Structured Query Language). It contains SQL code used to modify the contents of a relational database. SQL files may also contain statements for creating or modifying database structures, insertions, updates, deletions, and other SQL operations."
-	},
-
-	"EXECUTABLE FILE": "",
-	"apk": {
-		"header": "Android Package File(.apk)",
-		"developer": "Google",
-		"category": "Executable Files",
-		"description": "An APK file is an app created for Android, Google's mobile operating system. Some apps come pre-installed on Android devices, while other apps can be downloaded from Google Play. Apps downloaded from Google Play are automatically installed on your device, while those downloaded from other sources must be installed manually."
-	},
-	"app": {
-		"header": "Mac OS X Application(.app)",
-		"developer": "Apple",
-		"category": "Executable Files",
-		"description": "An APP file is an application bundle that runs under Mac OS X. APP files are executable files similar to .EXE files in Windows and run when double-clicked."
-	},
-	"bat": {
-		"header": "DOS Batch File(.bat)",
-		"developer": "Microsoft",
-		"category": "Executable Files",
-		"description": "A BAT file is a DOS batch file used to execute commands with the Windows Command Prompt (cmd.exe). It contains a series of line commands that typically might be entered at the DOS command prompt. BAT files are most commonly used to start programs and run maintenance utilities within Windows."
-	},
-	"cgi": {
-		"header": "Common Gateway Interface Script(.cgi)",
-		"developer": "N/A",
-		"category": "Executable Files",
-		"description": "A CGI file is an executable script written in the Perl or C programming language. It is typically stored in the 'cgi-bin' folder within a website directory on a web server and can only be edited if it is not pre-compiled."
-	},
-	"com": {
-		"header": "DOS Command File(.com)",
-		"developer": "Microsoft",
-		"category": "Executable Files",
-		"description": "A COM file is an executable program capable of being run by MS-DOS and Windows. It is saved in a binary format and is similar to an .EXE file, but differs in that it has a maximum size of roughly 64KB and it has no header or metadata. COM files are commonly used for executing a set of instructions whereas EXE files are used for fully developed programs."
-	},
-	"exe": {
-		"header": "Windows Executable File(.exe)",
-		"developer": "Microsoft",
-		"category": "Executable Files",
-		"description": "An EXE file contains an executable program for Windows. EXE is short for 'executable,' and it is the standard file extension used by Windows programs. For many Windows users, EXE files are synonymous with Windows programs, making '.exe' one of the most recognizable file extensions."
-	},
-	"gadget": {
-		"header": "Windows Gadget(.gadget)",
-		"developer": "Microsoft",
-		"category": "Executable Files",
-		"description": "A GADGET file is a small program that runs within the Windows Vista or Windows 7 sidebar. It stores several web-based files in a Zip archive format and may include .HTML, .CSS, .JS files, as well as other web files. GADGET files are used for small programs such as news feeds, search tools, system utilities, and small games."
-	},
-	"jar": {
-		"header": "Java Archive(.jar)",
-		"developer": "Oracle",
-		"category": "Executable Files",
-		"description": "A JAR file is a Java archive (JAR) file used by the Java Runtime Environment (JRE), a framework used for executing Java programs. JAR files may serve as program libraries or as standalone programs that run if the JRE is installed on the computer or mobile device."
-	},
-	"wsf": {
-		"header": "Windows Script File(.wsf)",
-		"developer": "Microsoft",
-		"category": "Executable Files",
-		"description": "A WSF file is an executable script for Windows that can incorporate JScript and VBScript routines and may include XML elements. WSF files run themselves if WScript or CScript is installed."
-	},
-
-	"GAME FILES": "",
-	"dem": {
-		"header": "Video Game Demo File(.dem)",
-		"developer": "Valve",
-		"category": "Game Files",
-		"description": "A DEM file is a game replay file created by various first-person shooter games and most popularly by Counter-Strike (supported by Valve's Source game engine). DEM files are used to record a player's perspective in a single or multiplayer game, which can then be shared with others."
-	},
-	"gam": {
-		"header": "Saved Game File(.gam)",
-		"developer": "N/A",
-		"category": "Game Files",
-		"description": "A GAM file is created by various video games to store saved games. It allows the gamer to continue where he or she left off the next time the program is opened. GAM files may be manually saved by the user or automatically saved by the program, for example, at the end of each level."
-	},
-	"nes": {
-		"header": "Nintendo (NES) ROM File(.nes)",
-		"developer": "N/A",
-		"category": "Game Files",
-		"description": "An NES file is a game ROM created from an NES (Nintendo Entertainment System) video game. It contains the same data as the original NES cartridge and can be opened and played on a Mac or PC using an NES emulator."
-	},
-	"rom": {
-		"header": "Read Only Memory Image(.rom)",
-		"developer": "N/A",
-		"category": "Misc Files",
-		"description": "A ROM file is a file that contains a copy of the ROM for a hardware device. It is commonly used for software emulation or for updating the firmware on a certain device. "
-	},
-	"sav": {
-		"header": "Nintendo DS Save File",
-		"developer": "Nintendo",
-		"category": "Game Files",
-		"description": "A SAV file is a saved game used by Nintendo DS portable game system emulators such as DeSmuME and NO$GBA. It stores the state of the current game progress and includes game information such as the character name, experience points, completed levels, and in-game resources."
-	},
-
-	"3D IMAGE FILES": "",
-	"3dm": {
-		"header": "Rhino 3D Model(.3dm)",
-		"developer": "Robert McNeel & Associates",
-		"category": "3D Image Files",
-		"description": "A 3DM file is an open-source 3D model format and native file format for Rhinoceros. It contains a 3D model which includes surface, points, and curve information. 3DM files allow CAD, CAM, CAE, and computer graphics software to accurately save and exchange 3D geometry using both NURBS and polygon mesh representations."
-	},
-	"3ds": {
-		"header": "3D Studio Scene(.3ds)",
-		"developer": "Autodesk",
-		"category": "3D Image Files",
-		"description": "A 3DS file is a 3D image format used by Autodesk 3D Studio. It contains mesh data, material attributes, bitmap references, smoothing group data, viewport configurations, camera locations, and lighting information. 3DS files may also include object animation data."
-	},
-	"max": {
-		"header": "3Ds Max Scene File(.max)",
-		"developer": "Autodesk",
-		"category": "3D Image Files",
-		"description": "A MAX file is a three-dimensional scene file created by 3ds Max, a 3D modeling, animation, and rendering application. It may contain multiple models that include wireframes, textures, lighting effects, shading, animation, and other 3D design elements."
-	},
-	"obj": {
-		"header": "Wavefront 3D Object File(.obj)",
-		"developer": "Wavefront Technologies",
-		"category": "3D Image Files",
-		"description": "An OBJ file is a standard 3D image format that can be exported and opened by various 3D image editing programs. It contains a three-dimensional object including 3D coordinates, texture maps, polygonal faces, and other object information."
-	},
-
-	"GIS FILE": "",
-	"gpx": {
-		"header": "GPS Exchange File(.gpx)",
-		"developer": "N/A",
-		"category": "GIS Files",
-		"description": "A GPX file is a GPS data saved in the GPS Exchange format, an open standard that can be freely used by GPS programs. It contains longitude and latitude location data, which includes waypoints, routes, and tracks. GPX files are saved in XML format that allows GPS data to be more easily imported and read by multiple programs and web services."
-	},
-	"kml": {
-		"header": "Keyhole Markup Language(.kml)",
-		"developer": "N/A",
-		"category": "GIS Files",
-		"description": "A KML file stores geographic modeling information in XML format. It includes points, lines, polygons, and images. KML files are used to identify and label locations, create different camera angles, overlay textures, and add HTML content."
-	},
-	"kmz": {
-		"header": "Google Earth Placemark File(.kmz)",
-		"developer": "Google",
-		"category": "GIS Files",
-		"description": "A KMZ file is a file that stores map locations viewable in Google Earth, a global mapping program. It contains placemarks that may include a custom name and the latitudinal and longitudinal coordinates of the location. KMZ files provide a bird's eye view of locations throughout the U.S. and other areas of the world."
-	},
-
-	"CAD FILE": "",
-	"dwg": {
-		"header": "AutoCAD Drawing Database File(.dwg)",
-		"developer": "Autodesk",
-		"category": "CAD Files",
-		"description": "A DWG file is a database of 2D or 3D drawings created with AutoCAD, a professional CAD program. It contains vector image data and metadata that describes the contents of the file. DWG files are related to .DXF files, which are ASCII versions of DWG files."
-	},
-	"dxf": {
-		"header": "Drawing Exchange Format File(.dxf)",
-		"developer": "Autodesk",
-		"category": "CAD Files",
-		"description": "A DXF file is a data file saved in a format developed by Autodesk and used for CAD (computer-aided design) vector image files, such as AutoCAD documents. DXF files are similar to .DWG files, but are more compatible with other programs since they are ASCII (text) based."
-	},
-
-	"WEB FILES": "",
-	"cer": {
-		"header": "Internet Security Certificate(.cer)",
-		"developer": "N/A",
-		"category": "Web Files",
-		"description": "A CER file is a security file provided by a third party Certificate Authority, such as VeriSign or Thwate, that verifies the authenticity of a website. It is installed on a web server to establish the validity of a certain website hosted on the server."
-	},
-	"cfm": {
-		"header": "ColdFusion Markup File(.cfm)",
-		"developer": "Adobe Systems",
-		"category": "Web Files",
-		"description": "A CFM file is a web page that contains ColdFusion code, or CFML (ColdFusion Markup Language). It is dynamically executed by the web server when the page is accessed by a user. CFM files can run ColdFusion applications and scripts written in CFScript and may reference database information, generate Flash forms, and create reports on the fly."
-	},
-	"csr": {
-		"header": "Certificate Signing Request File(.csr)",
-		"developer": "N/A",
-		"category": "Web Files",
-		"description": "A CSR file is a file created as a signing request for a digital certificate. It contains an encrypted block of text that identifies the applicant of the certificate and includes encrypted data for country, state, organization, domain, email address, and public key. The file is used by a Certificate Authority to establish proof of identity for Web sites."
-	},
-	"css": {
-		"header": "Cascading Style Sheet(.css)",
-		"developer": "Haakon Wium",
-		"category": "Web Files",
-		"description": "A CSS file is a cascading style sheet (CSS) file used to format the contents of a webpage. It contains customized, global properties for how to display HTML elements. CSS files can define the size, color, font, line spacing, indentation, borders, and location of HTML elements."
-	},
-	"html": {
-		"header": "Hypertext Markup Language(.html)",
-		"developer": "Tim Berners-Lee",
-		"category": "Web Files",
-		"description": "An HTML file is a webpage coded in HTML that can be displayed in a web browser. It is used to format text, tables, images, and other content that is displayed on a webpage. HTML files are widely used on the web as most pages within static websites have an '.html' extension."
-	},
-	"js": {
-		"header": "JavaScript(.js)",
-		"developer": "Brendan Eich",
-		"category": "Web Files / Developer Files",
-		"description": "A JS file is a text file containing JavaScript code that is used to execute JavaScript instructions in web pages. It may include functions that open and close windows, validate form fields, enable rollover images, or create drop-down menus."
-	},
-	"jsp": {
-		"header": "Java Server Page(.jsp)",
-		"developer": "Oracle",
-		"category": "Web Files",
-		"description": "A JSP file is a server-generated web page. It is similar to an .ASP or .PHP file, but contains Java code instead of ActiveX or PHP. The code is parsed by the web server, which generates HTML that is sent to the user's computer."
-	},
-	"rss": {
-		"header": "Rich Site Summary(.rss)",
-		"developer": "Aaron Swartz",
-		"category": "Web Files",
-		"description": "An RSS file is a Rich Site Summary file saved in an XML-based syndication format. It contains news headlines and other web content along with metadata such as the author's name and the publish date. RSS files are used by many websites for distributing information that is often updated via RSS in an efficient, text-only format."
-	},
-	"php": {
-		"header": "Personal Home Page Source Code(.php)",
-		"developer": "Rasmus Lerdorf",
-		"category": "Web Files / Developer Files",
-		"description": "A PHP file is a webpage that contains PHP (Hypertext Preprocessor) code. It may include PHP functions that can process online forms, get the date and time, or access information from a database, such as a MySQL database."
-	},
-	"xhtml": {
-		"header": "Extensible Hypertext Markup Language(.xhtml)",
-		"developer": "N/A",
-		"category": "Web Files",
-		"description": "An XHTML file is a web page written in XHTML, a reformulation of HTML 4 as an XML 1.0 application. It uses standard HTML tags, but must conform to more strict XML guidelines."
-	},
-
-	"FONT FILES": "",
-	"fnt": {
-		"header": "Windows Font File(.fnt)",
-		"developer": "Microsoft",
-		"category": "Font Files",
-		"description": "An FNT file is a font file used by the Windows operating system and often saved within the system fonts directory. It stores a generic font and may include vector and raster glyphs. FNT files have largely been replaced by TrueType (.TTF) and OpenType (.OTF) fonts."
-	},
-	"fon": {
-		"header": "Generic Font File(.fon)",
-		"developer": "N/A",
-		"category": "Font Files",
-		"description": "A FON file is a Windows 3.x font library file referenced by programs that access system fonts. It is an older font format that cannot be resized to any size like a TrueType (.TTF) font. The font may also look different on screen than paper."
-	},
-	"otf": {
-		"header": "OpenType Font(.otf)",
-		"developer": "N/A",
-		"category": "Font Files",
-		"description": "An OTF file is a font format developed by Adobe and Microsoft. It combines aspects of PostScript and TrueType font formats and is fully scalable, meaning the font can be resized without losing quality."
-	},
-	"ttf": {
-		"header": "TrueType Font(.ttf)",
-		"developer": "Apple",
-		"category": "Font Files",
-		"description": "A TTF file is a font file format created by Apple, but used on both Macintosh and Windows platforms. It can be resized to any size without losing quality and looks the same when printed as it does on the screen."
-	},
-
-	"DEVELOPER FILES": "",
-	"c": {
-		"header": "C/C++ Source Code(.c)",
-		"developer": "Dennis Ritchie",
-		"category": "Developer Files",
-		"description": "A C file is a source code file for a C or C++ program. It may include an entire program's source code, or may be one of many source files referenced within a programming project. C files can be edited using a basic text editor, but will not show syntax highlighting like most software development programs do."
-	},
-	"class": {
-		"header": "Java Class File(.class)",
-		"developer": "Oracle",
-		"category": "Developer Files",
-		"description": "A CLASS file is a compiled .JAVA file created by the Java compiler. It contains bytecode, which is binary program code that is executable when run by a Java Virtual Machine (JVM). CLASS files are commonly bundled into .JAR files, which are included in the $CLASSPATH environment variable for execution."
-	},
-	"cpp": {
-		"header": "C++ Source Code(.cpp)",
-		"developer": "Bjarne Stroustrup",
-		"category": "Developer Files",
-		"description": "A CPP file is a source code file written in C++, a popular programming language that adds features such as object-oriented programming to C. It can be a standalone program or one of many files references in a development project. CPP files must be compiled by a C++ compiler for the target platform before run."
-	},
-	"cs": {
-		"header": "C# Source Code(.cs)",
-		"developer": "Microsoft",
-		"category": "Developer Files",
-		"description": "A CS file is a source code file written in C# (pronounced 'C Sharp'), an object-oriented programming language created by Microsoft for use with the .NET Framework. It is used for developing a range of applications, from simple desktop programs to applications for distributed environments."
-	},
-	"dtd": {
-		"header": "Document Type Definition File(.dtd)",
-		"developer": "N/A",
-		"category": "Developer Files",
-		"description": "A DTD file is a text file that specifies elements and attributes used in an XML, SGML, HTML, or XHTML document. It can also define the ordering and nesting for elements and their attributes. DTD files are commonly referenced within webpages using a URL."
-	},
-	"fla": {
-		"header": "Adobe Animate Animation(.fla)",
-		"developer": "Adobe Systems",
-		"category": "Developer Files",
-		"description": "An FLA file is an animation project created by Adobe Animate, a program used to draw and publish interactive animations. It contains graphics, video, text elements, audio, and other assets. FLA files are often saved as .SWF files for use on the web as they are viewable in most web browsers with the Flash plugin."
-	},
-	"h": {
-		"header": "C/C++/Objective-C Header File(.h)",
-		"developer": "N/A",
-		"category": "Developer Files",
-		"description": "An H file is a header file referenced by a C, C++ or Objective-C source code document. It may contain variables, constants, and functions that are used by other files within a programming project. H files allow commonly used functions to be written only once and referenced by other source files when needed."
-	},
-	"java": {
-		"header": "Java Source Code(.java)",
-		"developer": "Oracle",
-		"category": "Developer Files",
-		"description": "A JAVA file is a source code file written in the Java programming language, which was originally developed by Sun Microsystems but is now maintained by Oracle. It uses an object-oriented approach, where structured data types, called classes, are used to instantiate objects at runtime."
-	},
-	"lua": {
-		"header": "Lua Source Code(.lua)",
-		"developer": "Roberto Ierusalimschy",
-		"category": "Developer Files",
-		"description": "A LUA file is a source code file written in Lua, a light-weight programming language designed for extending applications. It can be compiled into a program using an ANSI C compiler."
-	},
-	"m": {
-		"header": "Objective-C Implementation File(.m)",
-		"developer": "Apple",
-		"category": "Developer Files",
-		"description": "An M file is a class implementation file used by programs written in Objective-C. It begins with the @implementation directive and initializes variables and functions that can be referenced by other Objective-C source files. M files may also reference header (.H) files."
-	},
-	"pl": {
-		"header": "Perl Script(.pl)",
-		"developer": "Larry Wall",
-		"category": "Developer Files",
-		"description": "A PL file is a script written in Perl that is compiled and run using a Perl interpreter. It contains lines of Perl program code with variables, operations, functions, and comments. PL files may be difficult to read due to the brief and compact nature of the Perl language syntax."
-	},
-	"py": {
-		"header": "Python Script(.py)",
-		"developer": "Python Software Foundation",
-		"category": "Developer Files",
-		"description": "A PY file is a program file or script written in Python, an interpreted object-oriented programming language. It can be created and edited with a text editor, but requires a Python interpreter to run. PY files are often used for programming web servers and other administrative computer systems."
-	},
-	"sh": {
-		"header": "Shell Script(.sh)",
-		"developer": "N/A",
-		"category": "Developer Files",
-		"description": "An SH file is a script programmed for bash, a type of Unix shell (Bourne-Again SHell). It contains instructions written in the Bash language and can be executed by typing text commands within the shell's command-line interface."
-	},
-	"swift": {
-		"header": "Swift Source Code(.swift)",
-		"developer": "Apple",
-		"category": "Developer Files",
-		"description": "A SWIFT file is a source code file written in Swift, a programming language introduced by Apple with iOS 8 and OS X Yosemite. It is designed for writing and compiling apps and can be used with Xcode beginning with Xcode 6."
-	},
-	"": {
-		"header": "",
-		"developer": "",
-		"category": "",
-		"description": ""
-	}
+  "Source": [
+    "https://fileinfo.com",
+    ""
+  ],
+  "TEXT FILES": "",
+  "txt": {
+    "header": "Plain Text File(.txt)",
+    "developer": "N/A",
+    "category": "Text Files",
+    "description": "A TXT file is a standard text document that contains unformatted text. It is recognized by any text editing or word processing program and can also be processed by most other software programs."
+  },
+  "doc": {
+    "header": "Microsoft Word Document(.doc)",
+    "developer": "Microsoft",
+    "category": "Text Files",
+    "description": "A DOC file is a word processing document created by Microsoft Word, or another word processing program, such as OpenOffice Writer or Apple Pages. It may contain formatted text, images, tables, graphs, charts, page formatting, and print settings."
+  },
+  ".docx": {
+    "header": "Microsoft Word Open XML Document",
+    "developer": "Microsoft",
+    "category": "Text Files",
+    "description": "A DOCX file is a document created by Microsoft Word or another word processing program, such as OpenOffice Writer or Apple Pages. It contains formatted text but may also include images, drawn objects, and other document elements. DOCX files are widely used in home, academic, and business environments for drafting letters, resumes, invitations, newsletters, and other documents."
+  },
+  "log": {
+    "header": "Log File(.log)",
+    "developer": "N/A",
+    "category": "Text Files",
+    "description": "A LOG file is a log used by various operating systems and programs. It typically contains a plain text log of certain events with their timestamps. LOG files may be created by the operating system to keep track of system events or by a software installation program to list location and names of installed files."
+  },
+  "odt": {
+    "header": "OpenDocument Text(.odt)",
+    "developer": "Oracle",
+    "category": "Text Files",
+    "description": "An ODT file is a text document created with Writer, the Apache OpenOffice word processor. It contains different elements such as text, images, drawn objects, and styles. ODT files are formatted using the OASIS OpenDocument XML-based standard."
+  },
+  "pages": {
+    "header": "Pages Document(.pages)",
+    "developer": "Apple",
+    "category": "Text Files",
+    "description": "A PAGES files is a document created by Apple Pages, a word processor and page layout program. It may be a basic text document or a complex multi-page brochure. PAGES files can include text, pictures, tables, graphs, and charts and may be created from a blank page or built from a template."
+  },
+  "rtf": {
+    "header": "Rich Text Format(.rtf)",
+    "developer": "Microsoft",
+    "category": "Text Files",
+    "description": "An RTF file is a common text file format that supports 'rich text'. It includes several types of text formatting, such as bold type, italics, different fonts and font sizes, and custom tab settings. RTF files also support objects and images, such as .JPG and .PNG files, saved within the text file."
+  },
+  "tex": {
+    "header": "LaTeX Source Document(.tex)",
+    "developer": "Donald Knuth",
+    "category": "Text Files",
+    "description": "A TEX file is a source document prepared by LaTeX, a high-quality typesetting system. It can include text, symbols, mathematical expressions, and graphics. TEX files are commonly used in computer science, electrical engineering, statistics, economics, and physics for typesetting articles, books, and other publications."
+  },
+  "wpd": {
+    "header": "WordPerfect Document(.wpd)",
+    "developer": "Corel",
+    "category": "Text Files",
+    "description": "A WPD file is a text document created by Corel WordPerfect, a popular word processor. It may contain formatted text, tables, drawn objects, and images. WPD files are stored in a proprietary Corel format, but can be exported to other formats from within WordPerfect."
+  },
+  "wps": {
+    "header": "Kingsoft Writer Document(.wps)",
+    "developer": "Kingsoft",
+    "category": "Text Files",
+    "description": "A WPS file is a word processing document created by Kingsoft Writer, a word processor that is part of the Kingsoft WPS Office suite. It contains text, images, and page formatting. WPS files are similar to Microsoft Word documents (.DOC or .DOCX files)."
+  },
+  "DATA FILES": "",
+  "csv": {
+    "header": "Comma Separated Values(.csv)",
+    "developer": "N/A",
+    "category": "Data Files",
+    "description": "A CSV file is a comma separated values file commonly used by spreadsheet programs such as Microsoft Excel or OpenOffice Calc. It contains plain text data sets separated by commas with each new line in the CSV file representing a new database row and each database row consisting of one or more fields separated by a comma. CSV files are often opened by spreadsheet programs to be organized into cells or used for transferring data between databases."
+  },
+  "dat": {
+    "header": "Data File(.dat)",
+    "developer": "N/A",
+    "category": "Data Files",
+    "description": "A DAT file is a generic data file created by a specific application. It may contain data in binary or text format (text-based DAT files can be viewed in a text editor). DAT files are typically accessed only by the application that created them."
+  },
+  "ged": {
+    "header": "GEDCOM Genealogy Data File(.ged)",
+    "developer": "The LDS Church",
+    "category": "Data Files",
+    "description": "A GED file is a data file that stores family history and genealogical event data in the standard GEDCOM genealogy format. It contains data in an ASCII text format that can be opened by different genealogy programs on multiple computer systems."
+  },
+  "key": {
+    "header": "Software License Key File(.key)",
+    "developer": "N/A",
+    "category": "Misc Files",
+    "description": "A KEY file is a generic file extension used by various programs when registering legal copies of the software. It may be saved in a plain text format but generally contains some form of encrypted key string that authenticates the purchase and registers the software."
+  },
+  "keychain": {
+    "header": "Mac OS X Keychain File(.keychain)",
+    "developer": "Apple",
+    "category": "Data Files",
+    "description": "A KEYCHAIN file is created by Apple Keychain, a program bundled with Mac OS X that stores authentication information. It contains an encrypted collection of resource authentication data, such as passwords, certificates, and private keys."
+  },
+  "pps": {
+    "header": "PowerPoint Slide Show(.pps)",
+    "developer": "Microsoft",
+    "category": "Data Files",
+    "description": "A PPS file is a slide show created by Microsoft PowerPoint, a popular program included with Microsoft Office for creating presentations. It is saved as a completed slide show, which can be viewed by either PowerPoint or PowerPoint Viewer. PPS files are not editable like .PPT files."
+  },
+  "ppt": {
+    "header": "PowerPoint Presentation(.ppt)",
+    "developer": "Microsoft",
+    "category": "Data Files",
+    "description": "A PPT file is an editable slide show created by Microsoft PowerPoint or another presentation program, such as OpenOffice Impress or Apple Keynote. It may include formatted text, bullet points, images, movies, sound effects, and music. PPT files are commonly built from one of many templates included with the PowerPoint software, but may also be created from scratch."
+  },
+  "pptx": {
+    "header": "PowerPoint Open XML Presentation(.pptx)",
+    "developer": "Microsoft",
+    "category": "Data Files",
+    "description": "A PPTX file is a presentation file created by Microsoft PowerPoint or another presentation program, such as OpenOffice Impress or Apple Keynote. It contains a collection of slides, including their text, images, formatting, animations, drawn objects, and other media. PPTX files are commonly used in business meetings, marketing applications, and academic classroom settings."
+  },
+  "sdf": {
+    "header": "SQL Server Compact Database File(.sdf)",
+    "developer": "Microsoft",
+    "category": "Database Files",
+    "description": "Compact relational database developed by Microsoft, also known the SQL Server Compact (SQL CE) format; designed for applications that run on mobile devices and desktops; contains the complete database contents and can be up to 4GB in size."
+  },
+  "tar": {
+    "header": "Consolidated Unix File Archive(.tar)",
+    "developer": "Jean-loup Gailly",
+    "category": "Data Files",
+    "description": "Tar archive created by tar, a Unix-based utility used to package files together; contains multiple files stored in an uncompressed format; commonly compressed into a .GZ file using GNU Zip compression."
+  },
+  "vcf": {
+    "header": "vCard File(.vcf)",
+    "developer": "N/A",
+    "category": "Data Files",
+    "description": "A VCF file is a standard file format for storing contact information for a person or business. It typically includes a name, address, phone number, e-mail address, and other contact information. VCF files also support custom fields, images, and other types of media."
+  },
+  "xml": {
+    "header": "Extensible Markup Language File(.xml)",
+    "developer": "N/A",
+    "category": "Data Files",
+    "description": "An XML file is an XML (Extensible Markup Language) data file that uses tags to define objects and object attributes. It is formatted much like an .HTML document, but uses custom tags to define objects and the data within each object. XML files can be thought of as a text-based database."
+  },
+  "json": {
+    "header": "JavaScript Object Notation File(.json)",
+    "developer": "N/A",
+    "category": "Web Files / Data Files",
+    "description": "A JSON file is a file that stores simple data structures and objects. It contains data in a standard data interchange format which is lightweight, text-based, and human-readable. JSON files were originally based on a subset of JavaScript, but is considered a language-independent format, being supported by many different programming APIs."
+  },
+  "AUDIO FILES": "",
+  "aif": {
+    "header": "Audio Interchange File Format(.aif)",
+    "developer": "Apple",
+    "category": "Audio Files",
+    "description": "An AIF file is an audio file created using the Audio Interchange File Format (AIFF). It contains uncompressed CD-quality audio similar to a .WAV file and is commonly used to store standard CD audio."
+  },
+  "iff": {
+    "header": "Interchange File Format(.iff)",
+    "developer": "Electronic Arts",
+    "category": "Audio Files",
+    "description": "An IFF file is a universal file format created by Electronic Arts. It may contain image, text, or audio data and is used for interchanging different types of data across applications and platforms. IFF files are supported by many programs and are used as the basis for several other file formats, including AIFF."
+  },
+  "m3u": {
+    "header": "Media Playlist File(.m3u)",
+    "developer": "Nullsoft",
+    "category": "Audio Files",
+    "description": "An M3U file is a media playlist file supported by several media players such as Winamp and iTunes. It contains a playlist of MP3s and other audio or video files and lists the locations of media files in a plain text format."
+  },
+  "m4a": {
+    "header": "MPEG-4 Audio File(.m4a)",
+    "developer": "Apple",
+    "category": "Audio Files",
+    "description": "An M4A file is an audio file created in the MPEG-4 format, a multimedia container format used to store compressed audio and video data. It contains audio encoded with either the Advanced Audio Coding (AAC) codec or the Apple Lossless Audio Codec (ALAC)."
+  },
+  "mid": {
+    "header": "MIDI File(.mid)",
+    "developer": "N/A",
+    "category": "Audio Files",
+    "description": "A MID file is a standard MIDI (Musical Instrument Digital Interface) file used by music authoring and mixing programs as well as MIDI hardware devices. It contains music data, such as what notes are played, when they are played, how long each note is held, and how loud each note is played."
+  },
+  "mp3": {
+    "header": "MP3 Audio File(.mp3)",
+    "developer": "Moving Picture Experts Group",
+    "category": "Audio Files",
+    "description": "An MP3 file is an audio file that uses a compressed audio format developed by the Moving Picture Experts Group that uses 'Layer 3' audio compression. It is commonly used to store music files and audiobooks on a hard drive and may provide near-CD quality sound (stereo, 16-bit) in a file roughly 1/10 the size of a .WAV or .AIF file."
+  },
+  "mpa": {
+    "header": "MPEG-2 Audio File",
+    "developer": "N/A",
+    "category": "Audio Files",
+    "description": "An MPA file is an audio file compressed with MPEG Layer II compression, which reduces the file size while minimally affecting the overall sound quality. It is based on the MPEG-1 audio-coding standard and was later updated for the MPEG-2 specification."
+  },
+  "wav": {
+    "header": "WAVE Audio File(.wav)",
+    "developer": "Microsoft",
+    "category": "Audio Files",
+    "description": "A WAV file is an audio file that uses a standard digital audio file format utilized for storing waveform data. It allows audio recordings to be saved with different sampling rates and bitrates and are often saved in a 44.1 KHz, 16-bit, stereo format, which is the standard format used for CD audio."
+  },
+  "wma": {
+    "header": "Windows Media Audio File(.wma)",
+    "developer": "Microsoft",
+    "category": "Audio Files",
+    "description": "A WMA file is an audio file saved in the Advanced Systems Format (ASF) proprietary format developed by Microsoft. It contains Windows Media Audio and metadata objects such as the title, artist, album, and genre of the track. WMA files are similar to .MP3 files and primarily used for streaming music from the web."
+  },
+  "VIDEO FILES": "",
+  "3g2": {
+    "header": "3GPP2 Multimedia File(.3g2)",
+    "developer": "Third Generation Partnership Project",
+    "category": "Video Files",
+    "description": "A 3G2 file is a multimedia file saved in an audio and video format developed by the 3rd Generation Partnership Project 2 (3GPP2). 3G2 files are designed for transmitting multimedia content over the Internet and are used by cell phones to save video files."
+  },
+  "3gp": {
+    "header": "3GPP Multimedia File(.3gp)",
+    "developer": "Third Generation Partnership Project",
+    "category": "Video Files",
+    "description": "A 3GP file is a multimedia file saved in an audio and video container format developed by the 3rd Generation Partnership Project (3GPP). It stores video and audio streams that are transmitted between 3G mobile phones and over the Internet."
+  },
+  "asf": {
+    "header": "Advanced Systems Format File(.asf)",
+    "developer": "Microsoft",
+    "category": "Video Files",
+    "description": "An ASF file is a media file stored in the Advanced Systems Format (ASF), a proprietary video and audio container format. It contains audio and video data and optional metadata, such as title, author, and copyright bibliographic data. ASF files are developed by Microsoft primarily for streaming media."
+  },
+  "avi": {
+    "header": "Audio Video Interleave File(.avi)",
+    "developer": "Microsoft",
+    "category": "Video Files",
+    "description": "An AVI file is a file saved in a multimedia container format created by Microsoft. It stores video and audio data that may be encoded in a variety of codecs such as DivX and XviD. AVI files typically use less compression than similar formats such as .MPEG and .MOV."
+  },
+  "flv": {
+    "header": "Animate Video File(.flv)",
+    "developer": "Adobe Systems",
+    "category": "Video Files",
+    "description": "An FLV file is a flash-compatible video file exported by the Flash Video Exporter plug-in (included with Adobe Animate) or other program with FLV file support. It consists of a short header, interleaved audio, video, and metadata packets. The file stores audio and video data in a similar format used by standard Flash (.SWF) files."
+  },
+  "m4v": {
+    "header": "iTunes Video File",
+    "developer": "Apple",
+    "category": "Video Files",
+    "description": "An M4V file is an MPEG-4 file used to store video downloaded from the Apple iTunes store, such as TV episodes, music videos, and full-length movies. It is similar to the .MP4 file, but may be copy-protected using Apple's FairPlay DRM copyright protection."
+  },
+  "mov": {
+    "header": "Apple QuickTime Movie(.mov)",
+    "developer": "Apple",
+    "category": "Video Files",
+    "description": "A MOV file is a common multimedia container file format developed by Apple and compatible with both Macintosh and Windows platforms. It may contain multiple tracks that store different types of media data and is often used for saving movies and other video files. MOV files commonly use the MPEG-4 codec for compression."
+  },
+  "mp4": {
+    "header": "MPEG-4 Video File(.mp4)",
+    "developer": "Moving Picture Experts Group",
+    "category": "Video Files",
+    "description": "An MP4 file is a multimedia file commonly used to store a movie or video clip, but may also contain subtitles or images. MP4 is short for MPEG-4 Part 14, which is a container format based on the QuickTime File Format (QTFF) used by .MOV and .QT files."
+  },
+  "mpg": {
+    "header": "MPEG Video File(.mpg)",
+    "developer": "N/A",
+    "category": "Video Files",
+    "description": "An MPG file is a common video file that uses a digital video format standardized by the Moving Picture Experts Group (MPEG). It stores video, audio, and metadata interleaved together. MPG files are often used for creating movies that are distributed on the Internet."
+  },
+  "rm": {
+    "header": "RealMedia File(.rm)",
+    "developer": "RealNetworks",
+    "category": "Video Files",
+    "description": "An RM file is a multimedia file used by RealPlayer, an audio and video playback and streaming program. It contains audio or video data or a link to a streaming media file, which is played back as it is downloaded. RM files are commonly used for streaming content over the Internet such as video and Internet radio."
+  },
+  "srt": {
+    "header": "SubRip Subtitle(.srt)",
+    "developer": "N/A",
+    "category": "Video Files",
+    "description": "An SRT file is a subtitle file saved in the SubRip file format. It is supported by several video formats such as DivX and DVD and used by various video playback programs. SRT files contain subtitle information, which includes the sequential number of subtitles, start and end timecode, subtitle text."
+  },
+  "swf": {
+    "header": "Shockwave Flash Movie(.swf)",
+    "developer": "Adobe Systems",
+    "category": "Video Files",
+    "description": "An SWF file is an animation created with Adobe Flash that can be played by Flash Player or with a web browser that has the Flash plugin installed. It may contain text, vector and bitmap graphics, and interactive content written in ActionScript."
+  },
+  "vob": {
+    "header": "DVD Video Object(.vob)",
+    "developer": "N/A",
+    "category": "Video Files",
+    "description": "A VOB file is a movie data file from a DVD disc, typically stored in the VIDEO_TS folder at the root of the DVD. It contains a majority of the data stored on the disc which includes video, audio, subtitles, DVD menus and other navigation contents. VOB files are usually formatted as MPEG-2 system streams and can be opened by various video playback programs."
+  },
+  "wmv": {
+    "header": "Windows Media Video(.wmv)",
+    "developer": "Microsoft",
+    "category": "Video Files",
+    "description": "A WMV file is a video file based on the Microsoft Advanced Systems Format (ASF) container format and compressed with Windows Media compression. It contains video encoded with one of Microsoft's Windows Media Video (WMV) proprietary codecs and is similar to an .ASF file."
+  },
+  "yuv": {
+    "header": "YUV Video File",
+    "developer": "N/A",
+    "category": "Video Files",
+    "description": "A YUV file is a video file encoded in the YUV format. It stores a sequence of YUV images as a single video file and may be saved in YUV 4:2:0, 4:2:2, 4:4:4 formats. YUV video files may be decoded by MPEG-4 and H.264 decoders."
+  },
+  "IMAGE FILE": "",
+  "bmp": {
+    "header": "Bitmap Image(.bmp)",
+    "developer": "N/A",
+    "category": "Image Files",
+    "description": "A BMP file is an uncompressed bitmap image comprised of a rectangular grid of pixels. It contains a file header (bitmap identifier, file size, width, height, color options, and bitmap data starting point) and bitmap pixels, each with a different color."
+  },
+  "dds": {
+    "header": "DirectDraw Surface(.dds)",
+    "developer": "Microsoft",
+    "category": "Image Files",
+    "description": "A DDS file is an image file saved in a bitmap image format used by Microsoft DirectX to store textures and environments. It can store compressed and uncompressed bitmap formats and is sometimes used for storing Windows desktop backgrounds or wallpapers. DDS files are also used for texturing video game unit models."
+  },
+  "gif": {
+    "header": "Graphical Interchange Format(.gif)",
+    "developer": "N/A",
+    "category": "Image Files",
+    "description": "A GIF file is an image file often used for web graphics. It may contain up to 256 indexed colors with a color palette that may be a predefined set of colors or may be adapted to the colors in the image. GIF files are saved in a lossless format, meaning the clarity of the image is not compromised with GIF compression."
+  },
+  "jpg": {
+    "header": "JPEG Image(.jpg)",
+    "developer": "Joint Photographic Experts Group",
+    "category": "Image Files",
+    "description": "A JPG file is an image saved in a compressed image format standardized by the Joint Photographic Experts Group (JPEG). It is commonly used for storing digital photos and used by most digital cameras to save images. JPG files are among the most common image files along with .PNG, .TIF, and .GIF."
+  },
+  "png": {
+    "header": "Portable Network Graphic(.png)",
+    "developer": "N/A",
+    "category": "Image Files",
+    "description": "A PNG file is an image file stored in the Portable Network Graphic (PNG) format. It contains a bitmap of indexed colors and uses lossless compression, similar to a .GIF file but without copyright limitations. PNG files are commonly used to store graphics for web images."
+  },
+  "psd": {
+    "header": "Adobe Photoshop Document(.psd)",
+    "developer": "Adobe Systems",
+    "category": "Image Files",
+    "description": "A PSD file is an image file created by Adobe Photoshop, a professional image-editing program often used to enhance digital photos and create web graphics. It is the native format used to save files in Photoshop. PSD files may include image layers, adjustment layers, layer masks, annotations, file information, keywords, and other Photoshop-specific elements. They are commonly created and shared among graphics professionals."
+  },
+  "pspimage": {
+    "header": "PaintShop Pro Image(.pspimage)",
+    "developer": "Corel",
+    "category": "Image Files",
+    "description": "A PSPIMAGE file is a graphic saved by Corel PaintShop Pro, a program used for editing images and digital photos. It may contain both bitmap and vector graphics and supports layers, transparency, filters, and other image effects. PSPIMAGE files are commonly used for storing touched up photos, as well as for exporting finished images to other bitmap image file formats."
+  },
+  "tga": {
+    "header": "Targa Graphic(.tga)",
+    "developer": "Avid Technology",
+    "category": "Image Files",
+    "description": "A TGA file is a file saved in the bitmap graphic format designed by Truevision. It supports 8, 16, 24, or 32 bits per bitmap at a maximum of 24 bits for RGB colors and and 8-bit alpha channel. TGA files are often used to store texture files referenced by 3D video games."
+  },
+  "thm": {
+    "header": "Sony Ericsson Theme File(.thm)",
+    "developer": "Sony Ericsson",
+    "category": "Misc Files",
+    "description": "A THM file is a theme file used by Sony Ericsson mobile phones. It stores settings used to customize the user interface of the cell phone and includes custom window and text colors, icons, wallpaper, and other images. THM files can be created and edited using the free Themes Creator from Sony Ericsson."
+  },
+  "tif": {
+    "header": "Tagged Image File(.tif)",
+    "developer": "N/A",
+    "category": "Image Files",
+    "description": "A TIF file is an image file saved in a high-quality graphics format. It is often used for storing images with many colors, such as digital photos and includes support for layers and multiple pages."
+  },
+  "tiff": {
+    "header": "Tagged Image File Format(.tiff)",
+    "developer": "Adobe Systems",
+    "category": "Image Files",
+    "description": "A TIFF file is a graphics container that stores raster images. It may contain high-quality graphics that support color depths from 1 to 24-bit and supports both lossy and lossless compression. TIFF files also support multiple layers and pages."
+  },
+  "ai": {
+    "header": "Adobe Illustrator File(.ai)",
+    "developer": "Adobe Systems",
+    "category": "Image Files",
+    "description": "An AI file is a drawing created with Adobe Illustrator, a vector graphics editing program. It is composed of paths connected by points, rather than bitmap image data. AI files are commonly used for logos and print media."
+  },
+  "eps": {
+    "header": "Encapsulated PostScript File(.eps)",
+    "developer": "Adobe Systems",
+    "category": "Image Files",
+    "description": "An EPS file is a graphics file saved in the Encapsulated PostScript (EPS) file format. It may contain 2D vector graphics, bitmap images, and text. EPS files also include an embedded preview image in bitmap format."
+  },
+  "ps": {
+    "header": "PostScript File(.ps)",
+    "developer": "Adobe Systems",
+    "category": "Image Files",
+    "description": "A PS file is an image saved in the PostScript page description language. It may contain vector graphics, raster graphics, and text. PS files can be printed directly by a PostScript printer (i.e., containing a Raster Image Processor) without being opened in an application."
+  },
+  "svg": {
+    "header": "Scalable Vector Graphics(.svg)",
+    "developer": "Adobe Systems",
+    "category": "Image Files",
+    "description": "An SVG file is a graphics file that uses a two-dimensional vector graphic format created by the World Wide Web Consortium (W3C). It describes images using a text format that is based on XML. SVG files are developed as a standard format for displaying vector graphics on the web."
+  },
+  "DATABASE FILE": "",
+  "db": {
+    "header": "Mobile Device Database File(.db)",
+    "developer": "N/A",
+    "category": "Database Files",
+    "description": "A DB file is a database file used on mobile devices such as Android, iOS, and Windows Phone 7 mobile phones. It is often used to store contacts and SMS information but may store any type of device or application data. DB files are commonly stored in an SQLite database format but may also be locked or encrypted so the user cannot see the data directly."
+  },
+  "dbf": {
+    "header": "Database File(.dbf)",
+    "developer": "dBASE",
+    "category": "Database Files",
+    "description": "A DBF file is a standard database file used by dBASE, a database management system application. It organizes data into multiple records with fields stored in an array data type. DBF files are also compatible with other 'xBase' database programs, which arose because of the file format's popularity."
+  },
+  "mdb": {
+    "header": "Microsoft Access Database(.mdb)",
+    "developer": "Microsoft",
+    "category": "Database Files",
+    "description": "An MDB file is a database file created by Microsoft Access, a widely-used desktop relational database program. It contains the database structure (tables and fields) and database entries (table rows). MDB files may also store data entry forms, queries, stored procedures, reports, and database security settings."
+  },
+  "pdb": {
+    "header": "Program Database(.pdb)",
+    "developer": "N/A",
+    "category": "Database Files",
+    "description": "A PDB file is a database file used by various applications, including Pegasus, Quicken, MS Visual Studio, and Palm Pilot software. It stores data in a structured format and is typically installed with the corresponding application."
+  },
+  "sql": {
+    "header": "Structured Query Language Data File(.sql)",
+    "developer": "N/A",
+    "category": "Database Files",
+    "description": "A SQL file is a file written in SQL (Structured Query Language). It contains SQL code used to modify the contents of a relational database. SQL files may also contain statements for creating or modifying database structures, insertions, updates, deletions, and other SQL operations."
+  },
+  "EXECUTABLE FILE": "",
+  "apk": {
+    "header": "Android Package File(.apk)",
+    "developer": "Google",
+    "category": "Executable Files",
+    "description": "An APK file is an app created for Android, Google's mobile operating system. Some apps come pre-installed on Android devices, while other apps can be downloaded from Google Play. Apps downloaded from Google Play are automatically installed on your device, while those downloaded from other sources must be installed manually."
+  },
+  "app": {
+    "header": "Mac OS X Application(.app)",
+    "developer": "Apple",
+    "category": "Executable Files",
+    "description": "An APP file is an application bundle that runs under Mac OS X. APP files are executable files similar to .EXE files in Windows and run when double-clicked."
+  },
+  "bat": {
+    "header": "DOS Batch File(.bat)",
+    "developer": "Microsoft",
+    "category": "Executable Files",
+    "description": "A BAT file is a DOS batch file used to execute commands with the Windows Command Prompt (cmd.exe). It contains a series of line commands that typically might be entered at the DOS command prompt. BAT files are most commonly used to start programs and run maintenance utilities within Windows."
+  },
+  "cgi": {
+    "header": "Common Gateway Interface Script(.cgi)",
+    "developer": "N/A",
+    "category": "Executable Files",
+    "description": "A CGI file is an executable script written in the Perl or C programming language. It is typically stored in the 'cgi-bin' folder within a website directory on a web server and can only be edited if it is not pre-compiled."
+  },
+  "com": {
+    "header": "DOS Command File(.com)",
+    "developer": "Microsoft",
+    "category": "Executable Files",
+    "description": "A COM file is an executable program capable of being run by MS-DOS and Windows. It is saved in a binary format and is similar to an .EXE file, but differs in that it has a maximum size of roughly 64KB and it has no header or metadata. COM files are commonly used for executing a set of instructions whereas EXE files are used for fully developed programs."
+  },
+  "exe": {
+    "header": "Windows Executable File(.exe)",
+    "developer": "Microsoft",
+    "category": "Executable Files",
+    "description": "An EXE file contains an executable program for Windows. EXE is short for 'executable,' and it is the standard file extension used by Windows programs. For many Windows users, EXE files are synonymous with Windows programs, making '.exe' one of the most recognizable file extensions."
+  },
+  "gadget": {
+    "header": "Windows Gadget(.gadget)",
+    "developer": "Microsoft",
+    "category": "Executable Files",
+    "description": "A GADGET file is a small program that runs within the Windows Vista or Windows 7 sidebar. It stores several web-based files in a Zip archive format and may include .HTML, .CSS, .JS files, as well as other web files. GADGET files are used for small programs such as news feeds, search tools, system utilities, and small games."
+  },
+  "jar": {
+    "header": "Java Archive(.jar)",
+    "developer": "Oracle",
+    "category": "Executable Files",
+    "description": "A JAR file is a Java archive (JAR) file used by the Java Runtime Environment (JRE), a framework used for executing Java programs. JAR files may serve as program libraries or as standalone programs that run if the JRE is installed on the computer or mobile device."
+  },
+  "wsf": {
+    "header": "Windows Script File(.wsf)",
+    "developer": "Microsoft",
+    "category": "Executable Files",
+    "description": "A WSF file is an executable script for Windows that can incorporate JScript and VBScript routines and may include XML elements. WSF files run themselves if WScript or CScript is installed."
+  },
+  "GAME FILES": "",
+  "dem": {
+    "header": "Video Game Demo File(.dem)",
+    "developer": "Valve",
+    "category": "Game Files",
+    "description": "A DEM file is a game replay file created by various first-person shooter games and most popularly by Counter-Strike (supported by Valve's Source game engine). DEM files are used to record a player's perspective in a single or multiplayer game, which can then be shared with others."
+  },
+  "gam": {
+    "header": "Saved Game File(.gam)",
+    "developer": "N/A",
+    "category": "Game Files",
+    "description": "A GAM file is created by various video games to store saved games. It allows the gamer to continue where he or she left off the next time the program is opened. GAM files may be manually saved by the user or automatically saved by the program, for example, at the end of each level."
+  },
+  "nes": {
+    "header": "Nintendo (NES) ROM File(.nes)",
+    "developer": "N/A",
+    "category": "Game Files",
+    "description": "An NES file is a game ROM created from an NES (Nintendo Entertainment System) video game. It contains the same data as the original NES cartridge and can be opened and played on a Mac or PC using an NES emulator."
+  },
+  "rom": {
+    "header": "Read Only Memory Image(.rom)",
+    "developer": "N/A",
+    "category": "Misc Files",
+    "description": "A ROM file is a file that contains a copy of the ROM for a hardware device. It is commonly used for software emulation or for updating the firmware on a certain device. "
+  },
+  "sav": {
+    "header": "Nintendo DS Save File",
+    "developer": "Nintendo",
+    "category": "Game Files",
+    "description": "A SAV file is a saved game used by Nintendo DS portable game system emulators such as DeSmuME and NO$GBA. It stores the state of the current game progress and includes game information such as the character name, experience points, completed levels, and in-game resources."
+  },
+  "3D IMAGE FILES": "",
+  "3dm": {
+    "header": "Rhino 3D Model(.3dm)",
+    "developer": "Robert McNeel & Associates",
+    "category": "3D Image Files",
+    "description": "A 3DM file is an open-source 3D model format and native file format for Rhinoceros. It contains a 3D model which includes surface, points, and curve information. 3DM files allow CAD, CAM, CAE, and computer graphics software to accurately save and exchange 3D geometry using both NURBS and polygon mesh representations."
+  },
+  "3ds": {
+    "header": "3D Studio Scene(.3ds)",
+    "developer": "Autodesk",
+    "category": "3D Image Files",
+    "description": "A 3DS file is a 3D image format used by Autodesk 3D Studio. It contains mesh data, material attributes, bitmap references, smoothing group data, viewport configurations, camera locations, and lighting information. 3DS files may also include object animation data."
+  },
+  "max": {
+    "header": "3Ds Max Scene File(.max)",
+    "developer": "Autodesk",
+    "category": "3D Image Files",
+    "description": "A MAX file is a three-dimensional scene file created by 3ds Max, a 3D modeling, animation, and rendering application. It may contain multiple models that include wireframes, textures, lighting effects, shading, animation, and other 3D design elements."
+  },
+  "obj": {
+    "header": "Wavefront 3D Object File(.obj)",
+    "developer": "Wavefront Technologies",
+    "category": "3D Image Files",
+    "description": "An OBJ file is a standard 3D image format that can be exported and opened by various 3D image editing programs. It contains a three-dimensional object including 3D coordinates, texture maps, polygonal faces, and other object information."
+  },
+  "GIS FILE": "",
+  "gpx": {
+    "header": "GPS Exchange File(.gpx)",
+    "developer": "N/A",
+    "category": "GIS Files",
+    "description": "A GPX file is a GPS data saved in the GPS Exchange format, an open standard that can be freely used by GPS programs. It contains longitude and latitude location data, which includes waypoints, routes, and tracks. GPX files are saved in XML format that allows GPS data to be more easily imported and read by multiple programs and web services."
+  },
+  "kml": {
+    "header": "Keyhole Markup Language(.kml)",
+    "developer": "N/A",
+    "category": "GIS Files",
+    "description": "A KML file stores geographic modeling information in XML format. It includes points, lines, polygons, and images. KML files are used to identify and label locations, create different camera angles, overlay textures, and add HTML content."
+  },
+  "kmz": {
+    "header": "Google Earth Placemark File(.kmz)",
+    "developer": "Google",
+    "category": "GIS Files",
+    "description": "A KMZ file is a file that stores map locations viewable in Google Earth, a global mapping program. It contains placemarks that may include a custom name and the latitudinal and longitudinal coordinates of the location. KMZ files provide a bird's eye view of locations throughout the U.S. and other areas of the world."
+  },
+  "CAD FILE": "",
+  "dwg": {
+    "header": "AutoCAD Drawing Database File(.dwg)",
+    "developer": "Autodesk",
+    "category": "CAD Files",
+    "description": "A DWG file is a database of 2D or 3D drawings created with AutoCAD, a professional CAD program. It contains vector image data and metadata that describes the contents of the file. DWG files are related to .DXF files, which are ASCII versions of DWG files."
+  },
+  "dxf": {
+    "header": "Drawing Exchange Format File(.dxf)",
+    "developer": "Autodesk",
+    "category": "CAD Files",
+    "description": "A DXF file is a data file saved in a format developed by Autodesk and used for CAD (computer-aided design) vector image files, such as AutoCAD documents. DXF files are similar to .DWG files, but are more compatible with other programs since they are ASCII (text) based."
+  },
+  "WEB FILES": "",
+  "cer": {
+    "header": "Internet Security Certificate(.cer)",
+    "developer": "N/A",
+    "category": "Web Files",
+    "description": "A CER file is a security file provided by a third party Certificate Authority, such as VeriSign or Thwate, that verifies the authenticity of a website. It is installed on a web server to establish the validity of a certain website hosted on the server."
+  },
+  "cfm": {
+    "header": "ColdFusion Markup File(.cfm)",
+    "developer": "Adobe Systems",
+    "category": "Web Files",
+    "description": "A CFM file is a web page that contains ColdFusion code, or CFML (ColdFusion Markup Language). It is dynamically executed by the web server when the page is accessed by a user. CFM files can run ColdFusion applications and scripts written in CFScript and may reference database information, generate Flash forms, and create reports on the fly."
+  },
+  "csr": {
+    "header": "Certificate Signing Request File(.csr)",
+    "developer": "N/A",
+    "category": "Web Files",
+    "description": "A CSR file is a file created as a signing request for a digital certificate. It contains an encrypted block of text that identifies the applicant of the certificate and includes encrypted data for country, state, organization, domain, email address, and public key. The file is used by a Certificate Authority to establish proof of identity for Web sites."
+  },
+  "css": {
+    "header": "Cascading Style Sheet(.css)",
+    "developer": "Haakon Wium",
+    "category": "Web Files",
+    "description": "A CSS file is a cascading style sheet (CSS) file used to format the contents of a webpage. It contains customized, global properties for how to display HTML elements. CSS files can define the size, color, font, line spacing, indentation, borders, and location of HTML elements."
+  },
+  "html": {
+    "header": "Hypertext Markup Language(.html)",
+    "developer": "Tim Berners-Lee",
+    "category": "Web Files",
+    "description": "An HTML file is a webpage coded in HTML that can be displayed in a web browser. It is used to format text, tables, images, and other content that is displayed on a webpage. HTML files are widely used on the web as most pages within static websites have an '.html' extension."
+  },
+  "js": {
+    "header": "JavaScript(.js)",
+    "developer": "Brendan Eich",
+    "category": "Web Files / Developer Files",
+    "description": "A JS file is a text file containing JavaScript code that is used to execute JavaScript instructions in web pages. It may include functions that open and close windows, validate form fields, enable rollover images, or create drop-down menus."
+  },
+  "jsp": {
+    "header": "Java Server Page(.jsp)",
+    "developer": "Oracle",
+    "category": "Web Files",
+    "description": "A JSP file is a server-generated web page. It is similar to an .ASP or .PHP file, but contains Java code instead of ActiveX or PHP. The code is parsed by the web server, which generates HTML that is sent to the user's computer."
+  },
+  "rss": {
+    "header": "Rich Site Summary(.rss)",
+    "developer": "Aaron Swartz",
+    "category": "Web Files",
+    "description": "An RSS file is a Rich Site Summary file saved in an XML-based syndication format. It contains news headlines and other web content along with metadata such as the author's name and the publish date. RSS files are used by many websites for distributing information that is often updated via RSS in an efficient, text-only format."
+  },
+  "php": {
+    "header": "Personal Home Page Source Code(.php)",
+    "developer": "Rasmus Lerdorf",
+    "category": "Web Files / Developer Files",
+    "description": "A PHP file is a webpage that contains PHP (Hypertext Preprocessor) code. It may include PHP functions that can process online forms, get the date and time, or access information from a database, such as a MySQL database."
+  },
+  "xhtml": {
+    "header": "Extensible Hypertext Markup Language(.xhtml)",
+    "developer": "N/A",
+    "category": "Web Files",
+    "description": "An XHTML file is a web page written in XHTML, a reformulation of HTML 4 as an XML 1.0 application. It uses standard HTML tags, but must conform to more strict XML guidelines."
+  },
+  "FONT FILES": "",
+  "fnt": {
+    "header": "Windows Font File(.fnt)",
+    "developer": "Microsoft",
+    "category": "Font Files",
+    "description": "An FNT file is a font file used by the Windows operating system and often saved within the system fonts directory. It stores a generic font and may include vector and raster glyphs. FNT files have largely been replaced by TrueType (.TTF) and OpenType (.OTF) fonts."
+  },
+  "fon": {
+    "header": "Generic Font File(.fon)",
+    "developer": "N/A",
+    "category": "Font Files",
+    "description": "A FON file is a Windows 3.x font library file referenced by programs that access system fonts. It is an older font format that cannot be resized to any size like a TrueType (.TTF) font. The font may also look different on screen than paper."
+  },
+  "otf": {
+    "header": "OpenType Font(.otf)",
+    "developer": "N/A",
+    "category": "Font Files",
+    "description": "An OTF file is a font format developed by Adobe and Microsoft. It combines aspects of PostScript and TrueType font formats and is fully scalable, meaning the font can be resized without losing quality."
+  },
+  "ttf": {
+    "header": "TrueType Font(.ttf)",
+    "developer": "Apple",
+    "category": "Font Files",
+    "description": "A TTF file is a font file format created by Apple, but used on both Macintosh and Windows platforms. It can be resized to any size without losing quality and looks the same when printed as it does on the screen."
+  },
+  "DEVELOPER FILES": "",
+  "c": {
+    "header": "C/C++ Source Code(.c)",
+    "developer": "Dennis Ritchie",
+    "category": "Developer Files",
+    "description": "A C file is a source code file for a C or C++ program. It may include an entire program's source code, or may be one of many source files referenced within a programming project. C files can be edited using a basic text editor, but will not show syntax highlighting like most software development programs do."
+  },
+  "class": {
+    "header": "Java Class File(.class)",
+    "developer": "Oracle",
+    "category": "Developer Files",
+    "description": "A CLASS file is a compiled .JAVA file created by the Java compiler. It contains bytecode, which is binary program code that is executable when run by a Java Virtual Machine (JVM). CLASS files are commonly bundled into .JAR files, which are included in the $CLASSPATH environment variable for execution."
+  },
+  "cpp": {
+    "header": "C++ Source Code(.cpp)",
+    "developer": "Bjarne Stroustrup",
+    "category": "Developer Files",
+    "description": "A CPP file is a source code file written in C++, a popular programming language that adds features such as object-oriented programming to C. It can be a standalone program or one of many files references in a development project. CPP files must be compiled by a C++ compiler for the target platform before run."
+  },
+  "cs": {
+    "header": "C# Source Code(.cs)",
+    "developer": "Microsoft",
+    "category": "Developer Files",
+    "description": "A CS file is a source code file written in C# (pronounced 'C Sharp'), an object-oriented programming language created by Microsoft for use with the .NET Framework. It is used for developing a range of applications, from simple desktop programs to applications for distributed environments."
+  },
+  "dtd": {
+    "header": "Document Type Definition File(.dtd)",
+    "developer": "N/A",
+    "category": "Developer Files",
+    "description": "A DTD file is a text file that specifies elements and attributes used in an XML, SGML, HTML, or XHTML document. It can also define the ordering and nesting for elements and their attributes. DTD files are commonly referenced within webpages using a URL."
+  },
+  "fla": {
+    "header": "Adobe Animate Animation(.fla)",
+    "developer": "Adobe Systems",
+    "category": "Developer Files",
+    "description": "An FLA file is an animation project created by Adobe Animate, a program used to draw and publish interactive animations. It contains graphics, video, text elements, audio, and other assets. FLA files are often saved as .SWF files for use on the web as they are viewable in most web browsers with the Flash plugin."
+  },
+  "h": {
+    "header": "C/C++/Objective-C Header File(.h)",
+    "developer": "N/A",
+    "category": "Developer Files",
+    "description": "An H file is a header file referenced by a C, C++ or Objective-C source code document. It may contain variables, constants, and functions that are used by other files within a programming project. H files allow commonly used functions to be written only once and referenced by other source files when needed."
+  },
+  "java": {
+    "header": "Java Source Code(.java)",
+    "developer": "Oracle",
+    "category": "Developer Files",
+    "description": "A JAVA file is a source code file written in the Java programming language, which was originally developed by Sun Microsystems but is now maintained by Oracle. It uses an object-oriented approach, where structured data types, called classes, are used to instantiate objects at runtime."
+  },
+  "lua": {
+    "header": "Lua Source Code(.lua)",
+    "developer": "Roberto Ierusalimschy",
+    "category": "Developer Files",
+    "description": "A LUA file is a source code file written in Lua, a light-weight programming language designed for extending applications. It can be compiled into a program using an ANSI C compiler."
+  },
+  "m": {
+    "header": "Objective-C Implementation File(.m)",
+    "developer": "Apple",
+    "category": "Developer Files",
+    "description": "An M file is a class implementation file used by programs written in Objective-C. It begins with the @implementation directive and initializes variables and functions that can be referenced by other Objective-C source files. M files may also reference header (.H) files."
+  },
+  "pl": {
+    "header": "Perl Script(.pl)",
+    "developer": "Larry Wall",
+    "category": "Developer Files",
+    "description": "A PL file is a script written in Perl that is compiled and run using a Perl interpreter. It contains lines of Perl program code with variables, operations, functions, and comments. PL files may be difficult to read due to the brief and compact nature of the Perl language syntax."
+  },
+  "py": {
+    "header": "Python Script(.py)",
+    "developer": "Python Software Foundation",
+    "category": "Developer Files",
+    "description": "A PY file is a program file or script written in Python, an interpreted object-oriented programming language. It can be created and edited with a text editor, but requires a Python interpreter to run. PY files are often used for programming web servers and other administrative computer systems."
+  },
+  "sh": {
+    "header": "Shell Script(.sh)",
+    "developer": "N/A",
+    "category": "Developer Files",
+    "description": "An SH file is a script programmed for bash, a type of Unix shell (Bourne-Again SHell). It contains instructions written in the Bash language and can be executed by typing text commands within the shell's command-line interface."
+  },
+  "swift": {
+    "header": "Swift Source Code(.swift)",
+    "developer": "Apple",
+    "category": "Developer Files",
+    "description": "A SWIFT file is a source code file written in Swift, a programming language introduced by Apple with iOS 8 and OS X Yosemite. It is designed for writing and compiling apps and can be used with Xcode beginning with Xcode 6."
+  },
+  "vb": {
+    "header": "Visual Basic Project Item(.vb)",
+    "developer": "Microsoft",
+    "category": "Developer Files",
+    "description": "A VB file is a project item file written in the Visual Basic language, an object-oriented programming language created by Microsoft for use with the .NET Framework. It contains Visual Basic instructions in ASCII text format."
+  },
+  "xcodeproj" : {
+    "header" : "Xcode Project(.xcodeproj)",
+    "developer" : "Apple",
+    "category" : "Developer Files",
+    "description" : "An XCODEPROJ file is a Mac OS X or iOS software development project created with Apple's Xcode programming software. It contains project configuration data and links to files referenced by the project."
+  },
+  "vcxproj" : {
+    "header" : "Visual C++ Project(.vcxproj)",
+    "developer" : "Microsoft",
+    "category" : "Developer Files",
+    "description" : "A VCXPROJ file is a software development project created by Visual C++, a component of Microsoft Visual Studio used to develop programs in C++. It stores project information in an XML format, including references to source code files and application assets. The file is used for developing and building executable programs."
+  },
+  "pyw" : {
+    "header" : "Python GUI Source File(.pyw)",
+    "developer" : "Python Software Foundation",
+    "category" : "Developer Files",
+    "description" : "Python script that displays a graphical user interface (GUI); may contain standard Python code as well as graphical Python code; must be run using pythonw instead of python."
+  },
+  "pb" : {
+    "header" : "PureBasic Source File(.pb)",
+    "developer" : "Fantaisie",
+    "category" : "Developer Files",
+    "description" : "Program file containing source code created with PureBasic; based on the BASIC programming languauge; may include variables, functions, and references to other source files."
+  },
+  "asm" : {
+    "header" : "Assembly Language Source Code(.asm)",
+    "developer" : "N/A",
+    "category" : "Developer Files",
+    "description" : "Program written in assembly language, a low level programming language that can be converted to machine language; may be edited with a text editor and run using an assembler program, such as HLA, MASM, FASM, NASM, or GAS."
+  },
+  "b" : {
+    "header" : "BASIC Source File(.b)",
+    "developer" : "N/A",
+    "category" : "Developer Files",
+    "description" : "Programming file containing source code written in the BASIC programming language; may contains BASIC program or may include functions referenced by other BASIC project files."
+  },
+  "bas" : {
+    "header" : "BASIC Source Code(.bas)",
+    "developer" : "N/A",
+    "category" : "Developer Files",
+    "description" : "Program source code written in the BASIC programming language; BASIC stands for 'Beginner's All-purpose Symbolic Instruction Code,' and is available in several different versions that have modified since the language's inception in the 1960s."
+  },
+  "cc" : {
+    "header" : "C++ Source Code(.cc)",
+    "developer" : "N/A",
+    "category" : "Developer Files",
+    "description" : "Source code for a C++ program; may include all the code for a single program or may be one of several source code files referenced by a programming project; contains functions that are compiled into machine code, which the computer's operating system can understand."
+  },
+  "csx" : {
+    "header" : "Visual C# Script(.csx)",
+    "developer" : "Microsoft",
+    "category" : "Developer Files",
+    "description" : "Developer file written in Visual C# Script, a C# API developed by Microsoft under the codename The Roslyn Project; used for developing components in C# that can run on-demand as scripts with the Roslyn framework."
+  },
+  "cxx" : {
+    "header" : "C++ Source Code(.cxx)",
+    "developer" : "N/A",
+    "category" : "Developer Files",
+    "description" : "Source code file written in the C++ programming language; can contain a standalone program or components that can be included in other C++ source files; often edited with a text editor that includes syntax highlighting."
+  },
+  "" : {
+    "header" : "(.)",
+    "developer" : "",
+    "category" : "",
+    "description" : ""
+  }
 }

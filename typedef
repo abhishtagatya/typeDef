@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # TypeDef | Defining the File Types
-version="0.6"
+version="0.61"
 extension_url="https://raw.githubusercontent.com/abhishtagatya/typeDef/master/extension.json"
 
 #TODO :
@@ -39,12 +39,9 @@ showHelp() {
 getJSONContent() {
   # Get JSON Content from 'extension_url' or process other arguments
   if [[ $check_key ]]; then
-    if [[ $get_json != 'null' ]]; then
-      printf "$json_content\n"
-    else
-      file $fullfilename
-    fi
+    printf "$json_content\n"
   else
+    printf "Extension $extension not found! Issue us at https://github.com/abhishtagatya/typedef\n"
     file $fullfilename
   fi
 }
@@ -60,10 +57,9 @@ extension="${fullfilename##*.}"
 filename="${fullfilename%.*}"
 
 # Check for connections and get JSON Data
-wget -q --timeout=20 --spider http://fileinfo.com
+pingtest=$(ping -c 1 -W 5 8.8.8.8 > /dev/null)
 if [[ $? -eq 0 ]]; then
   check_key=$(curl -s $extension_url | jq "has(\"$extension\")")
-  get_json=$(curl -s $extension_url | jq ".[\"$extension\"]")
   json_content=$(curl -s "$extension_url" | jq --arg extension "$extension" ".[\"$extension\"][\"header\",\"developer\",\"category\",\"description\"]")
 fi
 
@@ -82,8 +78,7 @@ case $option in
 
   -u|--update)
     # Update and Replace Script
-    wget -q --timeout=20 --spider http://fileinfo.com
-    if [[ $? -eq 0 ]]; then
+    if [[ $pingtest -eq 0 ]]; then
       sudo wget https://raw.githubusercontent.com/abhishtagatya/typeDef/master/typedef
       sudo install -Dm 755 typedef /usr/bin/typedef
       sudo rm typedef
