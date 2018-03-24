@@ -143,6 +143,12 @@
     "category": "Web Files / Data Files",
     "description": "A JSON file is a file that stores simple data structures and objects. It contains data in a standard data interchange format which is lightweight, text-based, and human-readable. JSON files were originally based on a subset of JavaScript, but is considered a language-independent format, being supported by many different programming APIs."
   },
+  "list" : {
+    "header" : "APT List(.list)",
+    "developer" : "N/A",
+    "category" : "Data Files",
+    "description" : "FIle created by APT, an Advanced Package Tool used to manage applications; holds a list of package sources that software can be downloaded from; contains information detailing the archive type indicating whether it contains binary or source packages."
+  },
   "AUDIO FILES": "",
   "aif": {
     "header": "Audio Interchange File Format(.aif)",
@@ -791,8 +797,26 @@
     "category" : "Developer Files",
     "description" : "Source code file written in the C++ programming language; can contain a standalone program or components that can be included in other C++ source files; often edited with a text editor that includes syntax highlighting."
   },
+  "mo" : {
+    "header" : "Machine Object File(.mo)",
+    "developer" : "N/A",
+    "category" : "Developer Files",
+    "description" : "Binary data file that contains object data referenced by a program; typically used to translate program code; may be loaded or imported into the GNU gettext program."
+  },
+  "l" : {
+    "header" : "Lex Source File(.l)",
+    "developer" : "Mike Lesk",
+    "category" : "Developer Files",
+    "description" : "Source code file written for Lex, a program used to generate lexical analyzers; contains formal declarations for allowable source code syntax in a file; used for specifying the recognized syntax of source code."
+  },
+  "md" : {
+    "header" : "Markdown Documentation(.md)",
+    "developer" : "John Gruber",
+    "category" : "Developer Files",
+    "description" : "An MD file is a text file created using one of several possible dialects of the Markdown language. It is saved in plain text format but includes inline text symbols that define how to format the text (e.g., bold, indentations, headers, table formatting). MD files are designed for authoring plain text documentation that can be easily converted to HTML."
+  },
   "" : {
-    "header" : "(.)",
+    "header" : "",
     "developer" : "",
     "category" : "",
     "description" : ""
