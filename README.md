@@ -1,7 +1,7 @@
 # typeDef
 
-A Terminal tool that returns information of a file's extension
-> "Make remembering file types and extensions, a thing in the past"
+A Terminal Wiki for file types and extensions
+> "Know more about the files on your computers!"
 
 Example :
 
@@ -19,7 +19,7 @@ It will get all the information about the file (name, developer, type, descripti
 
 **Requirements**
 - [jq](https://stedolan.github.io/jq/) JSON Processor
-- [xdg-utils](https://launchpad.net/ubuntu/xenial/+package/xdg-utils) Open File and URL
+- [xdg-utils](https://launchpad.net/ubuntu/xenial/+package/xdg-utils) Open File and URL (Work in Progress)
 
 **Install the Script**
 
@@ -38,7 +38,7 @@ typeDef has a couple of options to retrieve data from 'extension.json', so make 
 $ typedef --web filename.json
 ```
 
-This will redirect you to https://fileinfo.com for full information of the file type.
+This will redirect you to https://fileinfo.com for full information of the file type. (Work in Progress)
 
 **Want a reliable source? Links!**
 
