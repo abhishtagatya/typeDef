@@ -19,7 +19,11 @@ It will get all the information about the file (name, developer, type, descripti
 
 **Requirements**
 - [jq](https://stedolan.github.io/jq/) JSON Processor
-- [xdg-utils](https://launchpad.net/ubuntu/xenial/+package/xdg-utils) Open File and URL (Work in Progress)
+- [lynx](https://launchpad.net/ubuntu/xenial/+package/xdg-utils) Terminal Browser
+
+```bash
+$ sudo apt install jq && sudo apt install lynx
+```
 
 **Install the Script**
 
@@ -38,7 +42,7 @@ typeDef has a couple of options to retrieve data from 'extension.json', so make 
 $ typedef --web filename.json
 ```
 
-This will redirect you to https://fileinfo.com for full information of the file type. (Work in Progress)
+This will redirect you to https://fileinfo.com via Lynx browser for full information of the file type. 
 
 **Want a reliable source? Links!**
 
