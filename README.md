@@ -19,7 +19,7 @@ It will get all the information about the file (name, developer, type, descripti
 
 **Requirements**
 - [jq](https://stedolan.github.io/jq/) JSON Processor
-- [lynx](https://launchpad.net/ubuntu/xenial/+package/xdg-utils) Terminal Browser
+- [lynx](https://lynx.browser.org/) Terminal Browser
 
 ```bash
 $ sudo apt install jq && sudo apt install lynx
@@ -42,7 +42,7 @@ typeDef has a couple of options to retrieve data from 'extension.json', so make 
 $ typedef --web filename.json
 ```
 
-This will redirect you to https://fileinfo.com via Lynx browser for full information of the file type. 
+This will redirect you to https://fileinfo.com via Lynx browser for full information of the file type.
 
 **Want a reliable source? Links!**
 
