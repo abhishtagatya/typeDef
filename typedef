@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # TypeDef | Defining the File Types
-version="0.63"
+version="0.65"
 extension_url="https://raw.githubusercontent.com/abhishtagatya/typeDef/master/extension.json"
 
 #TODO :
@@ -27,6 +27,7 @@ showHelp() {
   printf '\t -lo\t\tprint only the link file information;\n'
   printf '\t -w\t\tprint and open link of the file information;\n'
   printf '\t -wo\t\topen link of the file information;\n'
+  printf '\t -r\t\treport misinformation or broken feature;\n'
   printf '\t -u\t\tupdate the script to a newer version;\n\n'
   printf '\t -h\t\tshow help;\n\n'
 
@@ -102,6 +103,12 @@ case $option in
       getJSONContent
     fi
     lynx 'http://fileinfo.com/extension/'"$extension"
+    ;;
+
+  -r|--report)
+    # Report Broken Features or Misinformation
+    printf 'Want to report a broken feature or misinformation in typeDef?\n'
+    printf 'Click here https://github.com/abhishtagatya/typeDef/issues\n'
     ;;
 
   -i|--info)
