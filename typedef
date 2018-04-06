@@ -41,13 +41,13 @@ getJSONContent() {
   if [[ $check_key ]]; then
     printf "$json_content\n"
   else
-    printf "Extension $extension not found! Issue us at https://github.com/abhishtagatya/typedef\n"
+    printf "Extension '$extension' not found! Issue us at https://github.com/abhishtagatya/typedef\n"
     file $fullfilename
   fi
 }
 
 # Get the File Extension and Filename
-if [[ $2 == "" ]]; then
+if [[ -z $2 ]]; then
   fullfilename=$1
 else
   fullfilename=$2
