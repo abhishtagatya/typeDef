@@ -1,16 +1,14 @@
 #!/bin/bash
 
 # TypeDef | Defining the File Types
-version="0.62"
+version="0.63"
 extension_url="https://raw.githubusercontent.com/abhishtagatya/typeDef/master/extension.json"
 
 #TODO :
 # - Create a feature list (Report, Update, Issue)
 #   - Report : Report for Misinformation and anything about the 'extension.json'
-#   - Update : Test Out the Update script feature
-# - Create Test with python
 # - Clean Code with ShellCheck
-# Log(12 March 2018)
+# Log(6 April 2018)
 
 showHelp() {
   # Put A Help Function Here!
@@ -38,11 +36,12 @@ showHelp() {
 
 getJSONContent() {
   # Get JSON Content from 'extension_url' or process other arguments
-  if [[ $check_key ]]; then
+  if [[ $check_key == true ]]; then
     printf "$json_content\n"
   else
     printf "Extension '$extension' not found! Issue us at https://github.com/abhishtagatya/typedef\n"
     file $fullfilename
+    exit 1
   fi
 }
 
@@ -85,6 +84,7 @@ case $option in
       printf "Successfully Updated\n"
     else
       printf "It seems there is a problem with your network, Try Again\n"
+      exit 1
     fi
     ;;
 
@@ -102,7 +102,6 @@ case $option in
       getJSONContent
     fi
     lynx 'http://fileinfo.com/extension/'"$extension"
-    exit 0
     ;;
 
   -i|--info)
@@ -114,3 +113,5 @@ case $option in
   # By Default it will just give info of the file
   getJSONContent
 esac
+
+exit 0

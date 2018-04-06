@@ -77,6 +77,18 @@
     "category": "Data Files",
     "description": "A DAT file is a generic data file created by a specific application. It may contain data in binary or text format (text-based DAT files can be viewed in a text editor). DAT files are typically accessed only by the application that created them."
   },
+  "in": {
+    "header": "Input File(.in)",
+    "developer": "N/A",
+    "category": "Data Files",
+    "description": "File used by the Consolidated Model of Fire and Smoke Transport (CFAST), a program used to model fire and smoke impact on buildings; contains input data, like room specifications, accessed by the program to model fire and smoke effects."
+  },
+  "out": {
+    "header": "Output File(.out)",
+    "developer": "N/A",
+    "category": "Data Files",
+    "description": "Generic output file created by various programs; typically contains text that has been dumped from a batch process or a custom program as a log; may be analyzed to debug or understand the execution behavior of a program."
+  },
   "ged": {
     "header": "GEDCOM Genealogy Data File(.ged)",
     "developer": "The LDS Church",
@@ -143,11 +155,11 @@
     "category": "Web Files / Data Files",
     "description": "A JSON file is a file that stores simple data structures and objects. It contains data in a standard data interchange format which is lightweight, text-based, and human-readable. JSON files were originally based on a subset of JavaScript, but is considered a language-independent format, being supported by many different programming APIs."
   },
-  "list" : {
-    "header" : "APT List(.list)",
-    "developer" : "N/A",
-    "category" : "Data Files",
-    "description" : "FIle created by APT, an Advanced Package Tool used to manage applications; holds a list of package sources that software can be downloaded from; contains information detailing the archive type indicating whether it contains binary or source packages."
+  "list": {
+    "header": "APT List(.list)",
+    "developer": "N/A",
+    "category": "Data Files",
+    "description": "FIle created by APT, an Advanced Package Tool used to manage applications; holds a list of package sources that software can be downloaded from; contains information detailing the archive type indicating whether it contains binary or source packages."
   },
   "AUDIO FILES": "",
   "aif": {
@@ -609,6 +621,18 @@
     "category": "Web Files",
     "description": "An RSS file is a Rich Site Summary file saved in an XML-based syndication format. It contains news headlines and other web content along with metadata such as the author's name and the publish date. RSS files are used by many websites for distributing information that is often updated via RSS in an efficient, text-only format."
   },
+  "less": {
+    "header": "LESS Style Sheet(.less)",
+    "developer": "Alexis Sellier",
+    "category": "Web Files",
+    "description": "Webpage style sheet used by LESS, a dynamic style sheet language that extends standard CSS with features such as variables, mixins, operations, and functions; requires the LESS JavaScript library (less.js) to be included in the head section of the HTML page in order for styles in referenced LESS files to be processed."
+  },
+  "sass": {
+    "header": "Syntactically Awesome StyleSheets(.sass)",
+    "developer": "Hampton Catlin",
+    "category": "Web Files",
+    "description": "A SASS file is a Syntactically Awesome StyleSheets file. It contains Sass syntax, which is an extension of cascading style sheets (CSS) used to format the layout of webpages."
+  },
   "php": {
     "header": "Personal Home Page Source Code(.php)",
     "developer": "Rasmus Lerdorf",
@@ -737,82 +761,167 @@
     "category": "Developer Files",
     "description": "A VB file is a project item file written in the Visual Basic language, an object-oriented programming language created by Microsoft for use with the .NET Framework. It contains Visual Basic instructions in ASCII text format."
   },
-  "xcodeproj" : {
-    "header" : "Xcode Project(.xcodeproj)",
-    "developer" : "Apple",
-    "category" : "Developer Files",
-    "description" : "An XCODEPROJ file is a Mac OS X or iOS software development project created with Apple's Xcode programming software. It contains project configuration data and links to files referenced by the project."
+  "xcodeproj": {
+    "header": "Xcode Project(.xcodeproj)",
+    "developer": "Apple",
+    "category": "Developer Files",
+    "description": "An XCODEPROJ file is a Mac OS X or iOS software development project created with Apple's Xcode programming software. It contains project configuration data and links to files referenced by the project."
   },
-  "vcxproj" : {
-    "header" : "Visual C++ Project(.vcxproj)",
-    "developer" : "Microsoft",
-    "category" : "Developer Files",
-    "description" : "A VCXPROJ file is a software development project created by Visual C++, a component of Microsoft Visual Studio used to develop programs in C++. It stores project information in an XML format, including references to source code files and application assets. The file is used for developing and building executable programs."
+  "vcxproj": {
+    "header": "Visual C++ Project(.vcxproj)",
+    "developer": "Microsoft",
+    "category": "Developer Files",
+    "description": "A VCXPROJ file is a software development project created by Visual C++, a component of Microsoft Visual Studio used to develop programs in C++. It stores project information in an XML format, including references to source code files and application assets. The file is used for developing and building executable programs."
   },
-  "pyw" : {
-    "header" : "Python GUI Source File(.pyw)",
-    "developer" : "Python Software Foundation",
-    "category" : "Developer Files",
-    "description" : "Python script that displays a graphical user interface (GUI); may contain standard Python code as well as graphical Python code; must be run using pythonw instead of python."
+  "pyw": {
+    "header": "Python GUI Source File(.pyw)",
+    "developer": "Python Software Foundation",
+    "category": "Developer Files",
+    "description": "Python script that displays a graphical user interface (GUI); may contain standard Python code as well as graphical Python code; must be run using pythonw instead of python."
   },
-  "pb" : {
-    "header" : "PureBasic Source File(.pb)",
-    "developer" : "Fantaisie",
-    "category" : "Developer Files",
-    "description" : "Program file containing source code created with PureBasic; based on the BASIC programming languauge; may include variables, functions, and references to other source files."
+  "pb": {
+    "header": "PureBasic Source File(.pb)",
+    "developer": "Fantaisie",
+    "category": "Developer Files",
+    "description": "Program file containing source code created with PureBasic; based on the BASIC programming languauge; may include variables, functions, and references to other source files."
   },
-  "asm" : {
-    "header" : "Assembly Language Source Code(.asm)",
-    "developer" : "N/A",
-    "category" : "Developer Files",
-    "description" : "Program written in assembly language, a low level programming language that can be converted to machine language; may be edited with a text editor and run using an assembler program, such as HLA, MASM, FASM, NASM, or GAS."
+  "asm": {
+    "header": "Assembly Language Source Code(.asm)",
+    "developer": "N/A",
+    "category": "Developer Files",
+    "description": "Program written in assembly language, a low level programming language that can be converted to machine language; may be edited with a text editor and run using an assembler program, such as HLA, MASM, FASM, NASM, or GAS."
   },
-  "b" : {
-    "header" : "BASIC Source File(.b)",
-    "developer" : "N/A",
-    "category" : "Developer Files",
-    "description" : "Programming file containing source code written in the BASIC programming language; may contains BASIC program or may include functions referenced by other BASIC project files."
+  "b": {
+    "header": "BASIC Source File(.b)",
+    "developer": "N/A",
+    "category": "Developer Files",
+    "description": "Programming file containing source code written in the BASIC programming language; may contains BASIC program or may include functions referenced by other BASIC project files."
   },
-  "bas" : {
-    "header" : "BASIC Source Code(.bas)",
-    "developer" : "N/A",
-    "category" : "Developer Files",
-    "description" : "Program source code written in the BASIC programming language; BASIC stands for 'Beginner's All-purpose Symbolic Instruction Code,' and is available in several different versions that have modified since the language's inception in the 1960s."
+  "bas": {
+    "header": "BASIC Source Code(.bas)",
+    "developer": "N/A",
+    "category": "Developer Files",
+    "description": "Program source code written in the BASIC programming language; BASIC stands for 'Beginner's All-purpose Symbolic Instruction Code,' and is available in several different versions that have modified since the language's inception in the 1960s."
   },
-  "cc" : {
-    "header" : "C++ Source Code(.cc)",
-    "developer" : "N/A",
-    "category" : "Developer Files",
-    "description" : "Source code for a C++ program; may include all the code for a single program or may be one of several source code files referenced by a programming project; contains functions that are compiled into machine code, which the computer's operating system can understand."
+  "cc": {
+    "header": "C++ Source Code(.cc)",
+    "developer": "N/A",
+    "category": "Developer Files",
+    "description": "Source code for a C++ program; may include all the code for a single program or may be one of several source code files referenced by a programming project; contains functions that are compiled into machine code, which the computer's operating system can understand."
   },
-  "csx" : {
-    "header" : "Visual C# Script(.csx)",
-    "developer" : "Microsoft",
-    "category" : "Developer Files",
-    "description" : "Developer file written in Visual C# Script, a C# API developed by Microsoft under the codename The Roslyn Project; used for developing components in C# that can run on-demand as scripts with the Roslyn framework."
+  "csx": {
+    "header": "Visual C# Script(.csx)",
+    "developer": "Microsoft",
+    "category": "Developer Files",
+    "description": "Developer file written in Visual C# Script, a C# API developed by Microsoft under the codename The Roslyn Project; used for developing components in C# that can run on-demand as scripts with the Roslyn framework."
   },
-  "cxx" : {
-    "header" : "C++ Source Code(.cxx)",
-    "developer" : "N/A",
-    "category" : "Developer Files",
-    "description" : "Source code file written in the C++ programming language; can contain a standalone program or components that can be included in other C++ source files; often edited with a text editor that includes syntax highlighting."
+  "cxx": {
+    "header": "C++ Source Code(.cxx)",
+    "developer": "N/A",
+    "category": "Developer Files",
+    "description": "Source code file written in the C++ programming language; can contain a standalone program or components that can be included in other C++ source files; often edited with a text editor that includes syntax highlighting."
   },
-  "mo" : {
-    "header" : "Machine Object File(.mo)",
-    "developer" : "N/A",
-    "category" : "Developer Files",
-    "description" : "Binary data file that contains object data referenced by a program; typically used to translate program code; may be loaded or imported into the GNU gettext program."
+  "mo": {
+    "header": "Machine Object File(.mo)",
+    "developer": "N/A",
+    "category": "Developer Files",
+    "description": "Binary data file that contains object data referenced by a program; typically used to translate program code; may be loaded or imported into the GNU gettext program."
   },
-  "l" : {
-    "header" : "Lex Source File(.l)",
-    "developer" : "Mike Lesk",
-    "category" : "Developer Files",
-    "description" : "Source code file written for Lex, a program used to generate lexical analyzers; contains formal declarations for allowable source code syntax in a file; used for specifying the recognized syntax of source code."
+  "l": {
+    "header": "Lex Source File(.l)",
+    "developer": "Mike Lesk",
+    "category": "Developer Files",
+    "description": "Source code file written for Lex, a program used to generate lexical analyzers; contains formal declarations for allowable source code syntax in a file; used for specifying the recognized syntax of source code."
   },
-  "md" : {
-    "header" : "Markdown Documentation(.md)",
-    "developer" : "John Gruber",
-    "category" : "Developer Files",
-    "description" : "An MD file is a text file created using one of several possible dialects of the Markdown language. It is saved in plain text format but includes inline text symbols that define how to format the text (e.g., bold, indentations, headers, table formatting). MD files are designed for authoring plain text documentation that can be easily converted to HTML."
+  "md": {
+    "header": "Markdown Documentation(.md)",
+    "developer": "John Gruber",
+    "category": "Developer Files",
+    "description": "An MD file is a text file created using one of several possible dialects of the Markdown language. It is saved in plain text format but includes inline text symbols that define how to format the text (e.g., bold, indentations, headers, table formatting). MD files are designed for authoring plain text documentation that can be easily converted to HTML."
+  },
+  "gitignore": {
+    "header": "Git Ignore File(.gitignore)",
+    "developer": "Git",
+    "category": "Developer Files",
+    "description": "File used by Git, a version control system used for storing source code; contains a list of files that should not be committed to the Git source code repository; often used for omitting non-text (binary) files, OS files (e.g., .DS_STORE and Thumbs.db files), and temporary files from the repository."
+  },
+  "pas": {
+    "header": "Delphi Unit Source File / Pascal Source Code(.pas)",
+    "developer": "Embarcadero Technologies / Niklaus Wirth",
+    "category": "Developer Files",
+    "description": "Source code file created in Delphi, a software development application used for building Windows programs; written in the Delphi language, which is a variant of the Object Pascal language; can be compiled into native Win32 code with the Delphi compiler. Also a program file that contains source code written in Pascal or Object Pascal, two general purpose high level programming languages; can be edited with a Pascal development program or a basic text editor."
+  },
+  "coffee": {
+    "header": "CoffeeScript JavaScript File(.coffee)",
+    "developer": "N/A",
+    "category": "Executable Files / Developer Files",
+    "description": "JavaScript file written in CoffeeScript, a programming language that compiles and transcompiles to JavaScript; saved in a text format and contains code that is similar to JavaScript, but modified to be more readable."
+  },
+  "COMPRESSED FILES": "",
+  "deb": {
+    "header": "Debian Software Package(.deb)",
+    "developer": "Ian Ashley Murdock",
+    "category": "Compressed Files",
+    "description": "A DEB file is a standard Unix archive that contains two bzipped or gzipped archives, one for the installer control information and another for the actual data. DEB files are typically used for software installation packages."
+  },
+  "7z": {
+    "header": "7-Zip Compressed File(.7z)",
+    "developer": "Igor Pavlov",
+    "category": "Compressed Files",
+    "description": "A 7Z file is a compressed archive created with Igor Pavlov's 7-Zip file compression utility. It uses open-source LZMA compression, which has a high compression ratio and can include strong AES-256 (256-bit) encryption. The file supports Unicode file names, archive header compression, and file sizes up to 16,000,000,000 GB."
+  },
+  "ace": {
+    "header": "WinAce Compressed File(.ace)",
+    "developer": "WinAce",
+    "category": "Compressed Files",
+    "description": "File archive compressed by WinAce; uses a proprietary compression algorithm that offers a high compression ratio and fast compression speed."
+  },
+  "vip": {
+    "header": "Virtual Instrument Package(.vip)",
+    "developer": "JKI",
+    "category": "Compressed Files",
+    "description": "A VIP file is a virtual instrument (VI) package used by VI Package Manager (VIPM) to install add-ons to LabVIEW software. It contains an add-on, which includes all the .VI files and resources used by VIPM software to install, remove, and manage the add-on."
+  },
+  "zip": {
+    "header": "Zipped File(.zip)",
+    "developer": "N/A",
+    "category": "Compressed Files",
+    "description": "A ZIP file is an archive that contains one or more files compressed or 'zipped' using Zip compression. It stores files separately from each other allowing the files to be compressed using different methods and extracted without compressing or decompressing the entire archive."
+  },
+  "rar": {
+    "header": "WinRAR Compressed Archive(.rar)",
+    "developer": "Eugene Roshal",
+    "category": "Compressed Files",
+    "description": "A RAR file is an archive that contains one or more files compressed with RAR compression. It uses a higher compression ratio than typical ZIP compression and incorporates a proprietary compression algorithm that is now used by other compressors, including 7-Zip for its .7Z files. RAR files may be extracted using a variety of programs."
+  },
+  "mpkg": {
+    "header": "Meta Package File(.mpkg)",
+    "developer": "N/A",
+    "category": "Compressed Files",
+    "description": "Macintosh installer package that contains all the necessary installation files in a single Mac OS X package."
+  },
+  "rpm": {
+    "header": "Red Hat Package Manager File(.rpm)",
+    "developer": "Red Hat",
+    "category": "Compressed Files",
+    "description": "An RPM file is an installation package originally developed for the Red Hat Linux operating system, but now used by many other Linux distributions as well. RPM files are commonly used for installing programs on Linux systems."
+  },
+  "b64": {
+    "header": "Base64 MIME-Encoded File(.b64)",
+    "developer": "N/A",
+    "category": "Compressed Files",
+    "description": "Binary file encoded using base64 encoding; often used to convert text data into base64 data; enables more reliable transmission of e-mail attachments and other information; similar to a .MIME attachment."
+  },
+  "module": {
+    "header": "Drupal Module File(.module)",
+    "developer": "Drupal",
+    "category": "Plugin Files",
+    "description": "Module file used by Drupal, a content management system (CMS) for websites; contains source code written in PHP; used for adding functionality to the base Drupal installation, such as new page layouts, calendar popups, login forms, and developer tools."
+  },
+  "torrent": {
+    "header": "BitTorrent File(.torrent)",
+    "developer": "BitTorrent",
+    "category": "Misc Files",
+    "description": "A TORRENT file is a file used by BitTorrent, a peer-to-peer (P2P) file sharing program, for downloading a file (often from multiple locations at one time). It does not contain the content being distributed, only the metadata, which includes information about the file or group of files to be downloaded, such as their names, sizes, and folder structure."
   }
 }
